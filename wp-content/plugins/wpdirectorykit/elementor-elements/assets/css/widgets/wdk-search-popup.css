@@ -1,0 +1,101 @@
+.wdk-search-popup .toggle-btn {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 400;
+  background-color: #0074e4;
+  height: 46px;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  padding: 0 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.wdk-search-popup .wdk-btn {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 400;
+  background-color: #0074e4;
+  height: 46px;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  padding: 0 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+body .wdk-modal.wdk-search-popup-modal {
+  z-index: 100000;
+}
+
+body .wdk-modal.wdk-search-popup-modal .wdk-fields-list {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+body .wdk-modal.wdk-search-popup-modal .wdk-fields-list > .wdk-col {
+  grid-column: span 12;
+  width: initial;
+}
+
+body .wdk-modal.wdk-search-popup-modal .modal-dialog {
+  max-width: 100%;
+  width: 500px;
+  height: 80vh;
+  max-height: 100%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  margin: 0;
+}
+
+body .wdk-modal.wdk-search-popup-modal form {
+  width: 100%;
+  height: 100%;
+}
+
+body .wdk-modal.wdk-search-popup-modal .modal-content {
+  width: 100%;
+  height: 100%;
+}
+
+body .wdk-modal.wdk-search-popup-modal .wdk-btn {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 400;
+  background-color: #0074e4;
+  height: 46px;
+  border: none;
+  border-radius: 3px;
+  padding: 0 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #0074e4;
+}
+
+body .wdk-modal.wdk-search-popup-modal .wdk-btn.wdk-button-close {
+  border: 1px solid #eee;
+  background-color: #fff;
+  color: #000;
+}
+
+body .wdk-modal.wdk-search-popup-modal .wdk-btn.wdk-button-close:hover {
+  background-color: #eee;
+}
+
+body .wdk-modal.wdk-search-popup-modal .wdk-btn.wdk-button-search-reset {
+  border: 1px solid #eee;
+  background-color: #fff;
+  color: #000;
+}
+
+body .wdk-modal.wdk-search-popup-modal .wdk-btn.wdk-button-search-reset:hover {
+  background-color: #eee;
+}
+
+body .wdk-modal.wdk-search-popup-modal .wdk-fields-list .wdk-field {
+  margin: 0;
+}

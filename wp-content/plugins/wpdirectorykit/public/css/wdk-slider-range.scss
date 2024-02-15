@@ -1,0 +1,55 @@
+.wdk-slider-range-field {
+    min-width: 180px;
+    height: 46px;
+    position: relative;
+    z-index: 5;
+    .irs--round {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: -10px;
+        .irs-handle {
+            top: 29px;
+            width: 17px;
+            height: 17px;
+        }
+
+        .irs-from, .irs-to, .irs-single {
+            font-size: 13px;
+        }
+
+        .irs-grid-text {
+            color: silver;
+            font-size: 10px;
+        }
+
+        .irs-from, .irs-to, .irs-single {
+            top: 5px;
+        }
+
+        .irs-min, .irs-max {
+            top: 5px;
+        }
+    }
+
+    .irs-grid-text {
+        bottom: 4px;
+    }
+
+    @media  (max-width: 767px) {
+        .irs--round .irs-grid {
+            display: none;
+        }
+
+        .irs--round {
+            margin-top: 6px;
+        }
+    }
+}
+
+
+.wdk-search.layout_inline .wdk-slider-range-col .wdk-field-group {
+    padding: 0 15px;
+}

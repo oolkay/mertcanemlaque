@@ -1,0 +1,29 @@
+.wdk-element .wdk-element-button {
+  background: #075AC9;
+  color: #fff;
+  outline: none;
+  border: 0;
+  box-shadow: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 15px 15px;
+  transition: all .25s;
+  text-decoration: none !important;
+  display: inline-block;
+  width: auto;
+}
+
+.wdk-element .wdk-element-button svg, .wdk-element .wdk-element-button i {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.wdk-element .wdk-element-button svg {
+  height: 15px;
+}
+
+.wdk-element .wdk-element-button:hover {
+  background: #0052a2;
+}

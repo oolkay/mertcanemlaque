@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<locations>
+		<location>
+			<location_title>
+				Austria
+			</location_title>
+			<order_index />
+			<font_icon_code />
+			<image_id />
+			<icon_id />
+			<code />
+			<childs>
+				<location>
+					<location_title>
+						Graz
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Innsbruck
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Leoben
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Linz
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Salzburg
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Vienna
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Villach
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Wels
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+			</childs>
+		</location>
+		<location>
+			<location_title>
+				Croatia
+			</location_title>
+			<order_index />
+			<font_icon_code />
+			<image_id />
+			<icon_id />
+			<code />
+			<childs>
+				<location>
+					<location_title>
+						Osijek
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Pula
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Rijeka
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Slavonski Brod
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Split
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Varazdin
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Zadar
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Zagreb
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+			</childs>
+		</location>
+		<location>
+			<location_title>
+				Czech Republic
+			</location_title>
+			<order_index />
+			<font_icon_code />
+			<image_id />
+			<icon_id />
+			<code />
+			<childs>
+				<location>
+					<location_title>
+						Brno
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Kladno
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Linz
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Most
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Olomouc
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Ostrava
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Pardubice
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Prague
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+			</childs>
+		</location>
+		<location>
+			<location_title>
+				France
+			</location_title>
+			<order_index />
+			<font_icon_code />
+			<image_id />
+			<icon_id />
+			<code />
+			<childs>
+				<location>
+					<location_title>
+						Lyon
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Marseille
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Montpellier
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Nantes
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Nice
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Lille
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Strasbourg
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Toulouse
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Paris
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+			</childs>
+		</location>
+		<location>
+			<location_title>
+				Germany
+			</location_title>
+			<order_index />
+			<font_icon_code />
+			<image_id />
+			<icon_id />
+			<code />
+			<childs>
+				<location>
+					<location_title>
+						Berlin
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Cologne
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Dortmund
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Hamburg
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Leipzig
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Mannheim
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Munich
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Stuttgart
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+			</childs>
+		</location>
+		<location>
+			<location_title>
+				Hungary
+			</location_title>
+			<order_index />
+			<font_icon_code />
+			<image_id />
+			<icon_id />
+			<code />
+			<childs>
+				<location>
+					<location_title>
+						Budapest
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Debrecen
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Miskolc
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Zuglo
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+			</childs>
+		</location>
+		<location>
+			<location_title>
+				Italy
+			</location_title>
+			<order_index />
+			<font_icon_code />
+			<image_id />
+			<icon_id />
+			<code />
+			<childs>
+				<location>
+					<location_title>
+						Bari
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Bologna
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Catania
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Florence
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Genoa
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Messina
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Milan
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Naples
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Palermo
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Rome
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Turin
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Verona
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+			</childs>
+		</location>
+		<location>
+			<location_title>
+				Netherlands
+			</location_title>
+			<order_index />
+			<font_icon_code />
+			<image_id />
+			<icon_id />
+			<code />
+			<childs>
+				<location>
+					<location_title>
+						Amsterdam
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Almere Stad
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Breda
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Eindhoven
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Enschede
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Groningen
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Nijmegen
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Rotterdam
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Tilburg
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						The Hague
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Utrecht
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Zaanstad
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+			</childs>
+		</location>
+		<location>
+			<location_title>
+				Spain
+			</location_title>
+			<order_index />
+			<font_icon_code />
+			<image_id />
+			<icon_id />
+			<code />
+			<childs>
+				<location>
+					<location_title>
+						Alicante
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Barcelona
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Bilbao
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Cordoba
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Madrid
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Malaga
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Murcia
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Palma
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Sevilla
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Valencia
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Valladolid
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Zaragoza
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+			</childs>
+		</location>
+		<location>
+			<location_title>
+				United Kingdom
+			</location_title>
+			<order_index />
+			<font_icon_code />
+			<image_id />
+			<icon_id />
+			<code />
+			<childs>
+				<location>
+					<location_title>
+						Birmingham
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Cardiff
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Leeds
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Leicester
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Liverpool
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id />
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						London
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id>
+						location-london.jpg
+					</image_id>
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Manchester
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id>
+						location-mu.jpg
+					</image_id>
+					<icon_id />
+					<code />
+				</location>
+				<location>
+					<location_title>
+						Sheffield
+					</location_title>
+					<order_index />
+					<font_icon_code />
+					<image_id>
+						location-sheffield.jpg
+					</image_id>
+					<icon_id />
+					<code />
+				</location>
+			</childs>
+		</location>
+	</locations>
+</root>

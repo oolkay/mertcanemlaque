@@ -1,0 +1,55 @@
+.wdk-slider-range-field {
+  min-width: 180px;
+  height: 46px;
+  position: relative;
+  z-index: 5;
+}
+
+.wdk-slider-range-field .irs--round {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -10px;
+}
+
+.wdk-slider-range-field .irs--round .irs-handle {
+  top: 29px;
+  width: 17px;
+  height: 17px;
+}
+
+.wdk-slider-range-field .irs--round .irs-from, .wdk-slider-range-field .irs--round .irs-to, .wdk-slider-range-field .irs--round .irs-single {
+  font-size: 13px;
+}
+
+.wdk-slider-range-field .irs--round .irs-grid-text {
+  color: silver;
+  font-size: 10px;
+}
+
+.wdk-slider-range-field .irs--round .irs-from, .wdk-slider-range-field .irs--round .irs-to, .wdk-slider-range-field .irs--round .irs-single {
+  top: 5px;
+}
+
+.wdk-slider-range-field .irs--round .irs-min, .wdk-slider-range-field .irs--round .irs-max {
+  top: 5px;
+}
+
+.wdk-slider-range-field .irs-grid-text {
+  bottom: 4px;
+}
+
+@media (max-width: 767px) {
+  .wdk-slider-range-field .irs--round .irs-grid {
+    display: none;
+  }
+  .wdk-slider-range-field .irs--round {
+    margin-top: 6px;
+  }
+}
+
+.wdk-search.layout_inline .wdk-slider-range-col .wdk-field-group {
+  padding: 0 15px;
+}

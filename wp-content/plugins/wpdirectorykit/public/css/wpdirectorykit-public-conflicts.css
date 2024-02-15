@@ -1,0 +1,57 @@
+.wdk-listing-card {
+  height: auto !important;
+}
+
+.wdk-field input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), .wdk-field select {
+  margin: 0;
+}
+
+.menu-item-has-children .ht-dropdown {
+  display: none !important;
+}
+
+body:not(.admin-bar) .daterangepicker {
+  margin-top: 6px;
+}
+
+body .blueimp-gallery-display > .prev,
+body .blueimp-gallery-display > .next,
+body .blueimp-gallery-display > .close {
+  font-size: 0;
+  display: block;
+}
+
+.blueimp-gallery > .indicator {
+  display: block;
+}
+
+body .blueimp-gallery-controls > .indicator > li {
+  background-size: cover !important;
+}
+
+body.admin-bar .select2-container--open span.select2-dropdown.select2-dropdown--below {
+  margin-top: 0;
+}
+
+body.admin-bar .select2-container--open span.select2-dropdown.select2-dropdown--above {
+  margin-top: 0;
+}
+
+body .elementor-social-icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+/* enable in popup elementor */
+.select2-container {
+  z-index: 10000;
+}
+
+body .daterangepicker .drp-calendar {
+  max-width: initial;
+}
+
+body .daterangepicker {
+  width: auto;
+}

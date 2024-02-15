@@ -1,0 +1,31 @@
+.wdk-dashwidget-element .wdk-latest-listings .footer {
+  padding-top: 12px;
+  text-align: right;
+}
+
+.wdk-dashwidget-element .wdk-latest-listings table.wdk-table a.d-block {
+  display: block;
+}
+
+.wdk-dashwidget-element .wdk-latest-listings table.wdk-table img {
+  height: 70px;
+  width: 110px;
+  object-fit: cover;
+  max-width: 100%;
+  display: block;
+}
+
+.wdk-dashwidget-element .wdk-latest-listings table.wdk-table .actions_col {
+  text-align: right;
+}
+
+.wdk-dashwidget-element .wdk-latest-listings table.wdk-table .check-column {
+  width: auto;
+  padding: 8px 10px;
+}
+
+@media (max-width: 767px) {
+  .wdk-dashwidget-element .wdk-latest-listings .row-actions {
+    display: none;
+  }
+}

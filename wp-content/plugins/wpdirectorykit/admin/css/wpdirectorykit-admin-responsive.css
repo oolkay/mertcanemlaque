@@ -1,0 +1,118 @@
+/*------------------------------------------------------------------
+[Media Stylesheet]
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Min width 992px and Max width: 1199px
+2. Max width: 1140px 
+3. Max width: 992px
+4. Max width: 992px and min width: 768px
+5. Max width: 767px
+6. Max width: 480px
+7. Custom media for IE
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[1. Min width 992px and Max width: 1199px ]
+*/
+/*------------------------------------------------------------------
+[2. Max width: 1140px ]
+*/
+/*------------------------------------------------------------------
+[3. Max width: 991px ]
+*/
+@media (max-width: 991px) {
+  .wdk-wrap .listing_custom_fields div.wdk-field-edit.wdk-col-4 {
+    -webkit-flex: 0 0 calc(100% / 2);
+    flex: 0 0 calc(100% / 2);
+    max-width: calc(100% / 2);
+  }
+}
+
+/*------------------------------------------------------------------
+[4. Max width: 992px and min width: 768px]
+*/
+/*------------------------------------------------------------------
+[5. Max width: 767px]
+*/
+@media (max-width: 767px) {
+  .wdk-wrap .wdk-side-content {
+    flex-direction: column;
+    padding: 0;
+  }
+  .wdk-wrap .wdk-side-content .wdk-side {
+    flex: 0 0 100%;
+  }
+  .wdk-wrap .listing_edit_map {
+    margin-top: 10px;
+    width: 100%;
+    min-width: 100%;
+  }
+  .wdk-wrap .wdk-side-content .wdk-col.sidebar {
+    flex: 1 2 30%;
+    min-width: auto;
+  }
+  .wdk-wrap .wdk-builder-elements {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .wdk-wrap .wdk-builder-container .wdk-builder-elements-column,
+.wdk-wrap .drop-container {
+    width: 50%;
+  }
+  .wdk-wrap #wdk-drop .widget.ui-draggable.ui-sortable-handle,
+.wdk-wrap #wdk-drop .ui-sortable-placeholder.widget-placeholder,
+.wdk-wrap .wdk-wrap .drop-container .widget.ui-draggable.ui-sortable-handle,
+.wdk-wrap .wdk-wrap .drop-container .ui-sortable-placeholder.widget-placeholder {
+    width: 100%;
+    margin: 0px 15px 15px 0px;
+    float: left;
+  }
+  .wdk-wrap .listing_custom_fields div.wdk-field-edit[class*="wdk-col"] {
+    -webkit-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .wdk-wrap .winter_mvc-media .winter_mvc-media-card {
+    flex: 1 2 auto;
+  }
+  .wdk-wrap .button span.dashicons {
+    line-height: 1.5;
+  }
+}
+
+/*------------------------------------------------------------------
+[6. Max width: 540px]
+*/
+/*------------------------------------------------------------------
+[6. Max width: 576px]
+*/
+@media (max-width: 576px) {
+  .wdk-wrap div.wdk-field-edit label {
+    width: 100%;
+  }
+  .wdk-wrap div.wdk-field-edit > label {
+    margin-bottom: 15px;
+  }
+  .wdk-wrap div.wdk-field-edit div.wdk-field-container input, .wdk-wrap div.wdk-field-edit div.wdk-field-container select, .wdk-wrap div.wdk-field-edit div.wdk-field-container textarea {
+    margin-bottom: 10px;
+  }
+  .wdk-wrap div.wdk-field-edit div.wdk-field-container {
+    padding: 0;
+    width: 100%;
+  }
+  .wdk-wrap div.wdk-field-edit p.wdk-hint {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  .wdk-wrap .inputbox_map {
+    height: 250px;
+  }
+}
+
+/*------------------------------------------------------------------
+[6. Max width: 540px]
+*/
+/*------------------------------------------------------------------
+[7. Custom media for IE]
+*/

@@ -1,0 +1,599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nexproperty\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-08-15 10:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.2.4\n"
+
+#. 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:36
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] "%1$s recenzija za %2$s"
+msgstr[1] ""
+
+#: woocommerce/archive-product.php:53
+#: woocommerce/single-product.php:43
+msgid "404"
+msgstr "404"
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:78
+msgid "Add a review"
+msgstr "Dodaj recenziju"
+
+#: includes/ocdi/configuration.php:407
+msgid "Add Car"
+msgstr "Dodaj automobil"
+
+#: includes/customizer.php:146
+#: includes/ocdi/configuration.php:409
+msgid "Add Property"
+msgstr "Dodaj nekretninu"
+
+#: includes/ocdi/configuration.php:365
+msgid "Aenean sollicitudin, lorem quis bibend auctor, nisi elit consequat ipsum, necittis sem nibh id elit. Duis sed odio enim."
+msgstr ""
+
+#: woocommerce/archive-product.php:65
+#: woocommerce/single-product.php:47
+msgid "Archive"
+msgstr "Arhiva"
+
+#: woocommerce/archive-product.php:51
+#: woocommerce/single-product.php:41
+msgid "Author"
+msgstr "Autor"
+
+#: woocommerce/single-product-reviews.php:113
+msgid "Average"
+msgstr "Prosjecno"
+
+#: woocommerce/single-product-reviews.php:78
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Budite prvi koji će recenzirati \"%s\""
+
+#: woocommerce/archive-product.php:26
+#: woocommerce/single-product.php:16
+msgid "Blog"
+msgstr "Blog"
+
+#: includes/customizer.php:194
+msgid "Blog Page"
+msgstr "Blog stranica"
+
+#: includes/customizer.php:211
+msgid "Blog Standard"
+msgstr "Blog Standard"
+
+#: template-parts/content-page.php:36
+#: template-parts/content.php:37
+msgid "by"
+msgstr "po"
+
+#: comments.php:58
+msgid "Cancel Reply"
+msgstr "Odustani od odgovora"
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Cancel Review"
+msgstr "Odustani od recenziranja"
+
+#: woocommerce/single-product-reviews.php:121
+msgid "Comment"
+msgstr "Komentar"
+
+#: includes/comment-walker.php:13
+msgid "Comments"
+msgstr "Komentari"
+
+#: comments.php:30
+msgid "Comments are closed."
+msgstr "Komentari su zakljucani."
+
+#: template-parts/content-page.php:70
+#: template-parts/content.php:77
+msgid "Continue Reading "
+msgstr "Nastavi čitati"
+
+#: includes/customizer.php:186
+msgid "Copyright Text"
+msgstr "Tekst autorskih prava"
+
+#: footer.php:62
+msgid "Created using WPDirectoryKit"
+msgstr "Stvoreno pomoću WPDirectoryKita"
+
+#: header.php:82
+msgid "Dash"
+msgstr "Crtica"
+
+#: woocommerce/archive-product.php:45
+#: woocommerce/single-product.php:35
+msgid "Day"
+msgstr "Dan"
+
+#: comments.php:43
+#: woocommerce/single-product-reviews.php:72
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/customizer.php:171
+msgid "Email Address"
+msgstr "Email adresa"
+
+#: includes/customizer.php:187
+msgid "Enter Copyright text"
+msgstr "Unesite autorski tekst"
+
+#: includes/customizer.php:172
+msgid "Enter Email Address"
+msgstr "Unesite adresu e-pošte"
+
+#: includes/customizer.php:167
+msgid "Enter Phone Number"
+msgstr "Unesite broj telefona"
+
+#: includes/customizer.php:144
+msgid "Enter Property button Text"
+msgstr "Unesite tekst gumba Svojstva"
+
+#: includes/customizer.php:128
+msgid "Enter Sign-In button Text"
+msgstr "Unesite tekst gumba za prijavu"
+
+#: includes/customizer.php:209
+msgid "Enter the blog page heading. Leave empty if you want to show default page name"
+msgstr "Unesite naslov stranice bloga. Ostavite prazno ako želite prikazati zadani naziv stranice"
+
+#: includes/customizer.php:161
+msgid "Enter the content"
+msgstr "Unesite sadržaj"
+
+#: includes/customizer.php:294
+msgid "Enter the number of words to be shown in the posts content on main blog page"
+msgstr "Unesite broj riječi koje će biti prikazane u sadržaju postova na glavnoj stranici bloga"
+
+#: template-parts/content-page.php:58
+#: template-parts/content.php:59
+msgid "Featured"
+msgstr "Istaknuto"
+
+#: includes/customizer.php:151
+#: includes/theme-setup.php:125
+msgid "Footer"
+msgstr "Podnožje"
+
+#: includes/customizer.php:160
+msgid "Footer Content"
+msgstr "Sadržaj podnožja"
+
+#: includes/theme-setup.php:40
+msgid "Footer Links"
+msgstr "Veze za podnožje"
+
+#: woocommerce/single-product-reviews.php:112
+msgid "Good"
+msgstr "Dobro"
+
+#: includes/customizer.php:113
+msgid "Header"
+msgstr "Zaglavlje"
+
+#: woocommerce/archive-product.php:33
+#: woocommerce/single-product.php:23
+msgid "Homepage"
+msgstr "Početna stranica"
+
+#. Author URI of the theme
+msgid "https://wpdirectorykit.com"
+msgstr "https://wpdirectorykit. com"
+
+#. URI of the theme
+msgid "https://wpdirectorykit.com/themes/nexproperty.html"
+msgstr "https://wpdirectorykit. com/themes/nexproperty. html"
+
+#: functions.php:104
+msgid "import now"
+msgstr "uvezi sada"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Čini se da ne možemo pronaći ono što tražite. Možda pretraživanje može pomoći."
+
+#: comments.php:55
+msgid "Leave A Reply"
+msgstr "Ostavite odgovor"
+
+#. 1: number of comments, 2: post title
+#: comments.php:57
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Ostavite odgovor %s"
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:80
+#, php-format
+msgid "Leave a Review to %s"
+msgstr "Ostavite recenziju %s"
+
+#: header.php:74
+msgid "Log Out"
+msgstr "Odjavite se"
+
+#. logged link to post comments
+#: comments.php:75
+#: woocommerce/single-product-reviews.php:96
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Prijavljeni ste kao %2$s. Odjavite se?"
+
+#: includes/customizer.php:130
+#: includes/ocdi/configuration.php:404
+msgid "Login"
+msgstr "Prijaviti se"
+
+#: includes/customizer.php:155
+msgid "Logo"
+msgstr "Logo"
+
+#: header.php:41
+msgid "logo"
+msgstr ""
+
+#: header.php:64
+#: includes/theme-setup.php:41
+msgid "Mobile Menu"
+msgstr "Mobilni izbornik"
+
+#: woocommerce/archive-product.php:47
+#: woocommerce/single-product.php:37
+msgid "Month"
+msgstr "Mjesec"
+
+#: includes/ocdi/configuration.php:397
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#. Name of the theme
+#: includes/customizer.php:26
+msgid "NexProperty"
+msgstr "NexProperty"
+
+#: woocommerce/single-product-reviews.php:52
+msgid "Next"
+msgstr "Sljedeći"
+
+#: includes/customizer.php:121
+#: includes/customizer.php:137
+#: includes/customizer.php:180
+#: includes/customizer.php:202
+#: includes/customizer.php:218
+#: includes/customizer.php:228
+#: includes/customizer.php:238
+#: includes/customizer.php:248
+#: includes/customizer.php:258
+#: includes/customizer.php:268
+#: includes/customizer.php:278
+#: includes/customizer.php:287
+msgid "No"
+msgstr "Ne"
+
+#: woocommerce/single-product-reviews.php:114
+msgid "Not that bad"
+msgstr "Nije tako loše"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "ništa nije pronađeno"
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr "Samo prijavljeni kupci koji su kupili ovaj proizvod mogu ostaviti recenziju."
+
+#: template-parts/content-page.php:77
+#: template-parts/content.php:84
+#: woocommerce/archive-product.php:35
+#: woocommerce/single-product.php:25
+msgid "Page"
+msgstr "Stranica"
+
+#: includes/customizer.php:208
+msgid "Page Heading Text"
+msgstr "Tekst naslova stranice"
+
+#: template-parts/content-page.php:77
+#: template-parts/content.php:84
+msgid "Pages:"
+msgstr "Stranice:"
+
+#: woocommerce/single-product-reviews.php:111
+msgid "Perfect"
+msgstr "Savršen"
+
+#: includes/customizer.php:166
+msgid "Phone Number"
+msgstr "Broj telefona"
+
+#: includes/ocdi/configuration.php:395
+msgid "Popular Properties"
+msgstr "Popularna svojstva"
+
+#: template-parts/navigation.php:23
+msgid "Post"
+msgstr "Post"
+
+#: comments.php:64
+msgid "Post comment"
+msgstr "Objavi komentar"
+
+#: comments.php:61
+msgid "Post Your Reply"
+msgstr "Objavite svoj odgovor"
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Post Your Review"
+msgstr "Objavite svoju recenziju"
+
+#: includes/comment-walker.php:49
+msgid "Posted on "
+msgstr "Objavljeno na"
+
+#: archive.php:49
+msgid "Posts navigation"
+msgstr "Navigacija postova"
+
+#: woocommerce/single-product-reviews.php:51
+msgid "Previous"
+msgstr "Prethodno"
+
+#: includes/theme-setup.php:39
+msgid "Primary Menu"
+msgstr "Primarni izbornik"
+
+#: woocommerce/single-product.php:14
+msgid "Product"
+msgstr "Proizvod"
+
+#: includes/customizer.php:143
+msgid "Property Button Text"
+msgstr "Tekst gumba svojstva"
+
+#: woocommerce/single-product-reviews.php:110
+msgid "Rate&hellip;"
+msgstr "Stopa…"
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Jeste li spremni objaviti svoj prvi post? Započnite ovdje."
+
+#. Description of the theme
+msgid "Real Estate Directory Listing Theme for Real Estate Agency, Realtor, Broker, Classifieds Ads and will help you to run any type of Classified Directory or Listings Business. Theme is mostly build for Elementor so everything can be customized visually. Real Estate Agency Directory Features: Manage Listings, Manage Categories, Manage Fields, Select listings agent, Manage indoor amenities, Manage outdoor amenities, Multimedia fields integration, Full Elementor compatibility, Messaging support, Demo data import for Real Estate and Car Dealership, Open street maps support. Check demo version on https://wpdirectorykit.com/theme_preview/nexproperty"
+msgstr ""
+
+#: includes/comment-walker.php:59
+msgid "Reply"
+msgstr "Odgovor"
+
+#: woocommerce/single-product-reviews.php:39
+msgid "Reviews"
+msgstr "Recenzije"
+
+#: comments.php:93
+msgid "Save my name, email, and website in this browser for the next time I comment"
+msgstr "Sačuvaj moje ime, e-poštu i web stranicu u ovom pregledniku za sljedeći put kada komentiram"
+
+#: searchform.php:18
+#: woocommerce/archive-product.php:41
+#: woocommerce/single-product.php:31
+msgid "Search"
+msgstr "traži"
+
+#: searchform.php:17
+msgid "Search..."
+msgstr "Traži. . ."
+
+#: woocommerce/archive-product.php:63
+#: woocommerce/single-product.php:45
+msgid "Shop"
+msgstr "Dućan"
+
+#: includes/customizer.php:244
+msgid "Show author info on single post?"
+msgstr "Prikaži podatke o autoru na jednom postu?"
+
+#: includes/customizer.php:264
+msgid "Show categories?"
+msgstr "Prikaži kategorije?"
+
+#: includes/customizer.php:254
+msgid "Show comments count?"
+msgstr "Prikaži broj komentara?"
+
+#: includes/customizer.php:176
+msgid "Show Footer Widgets?"
+msgstr "Prikaži widgete podnožja?"
+
+#: includes/customizer.php:117
+msgid "Show Login button?"
+msgstr "Prikaži gumb za prijavu?"
+
+#: includes/customizer.php:198
+msgid "Show Page Heading?"
+msgstr "Prikaži naslov stranice?"
+
+#: includes/customizer.php:234
+msgid "Show post author?"
+msgstr "Prikaži autora posta?"
+
+#: includes/customizer.php:224
+msgid "Show post date?"
+msgstr "Prikaži datum objave?"
+
+#: includes/customizer.php:284
+msgid "Show post excerpt, instead content?"
+msgstr "Prikaži izvadak posta umjesto sadržaja?"
+
+#: includes/customizer.php:133
+msgid "Show Property Button?"
+msgstr "Prikaži gumb svojstva?"
+
+#: includes/customizer.php:214
+msgid "Show Sidebar?"
+msgstr "Prikaži bočnu traku?"
+
+#: includes/customizer.php:274
+msgid "Show Tags?"
+msgstr "Prikaži oznake?"
+
+#: includes/theme-setup.php:98
+msgid "Sidebar"
+msgstr "Bočna traka"
+
+#: includes/theme-setup.php:107
+msgid "Sidebar Woo Products Page"
+msgstr "Stranica Woo proizvoda na bočnoj traci"
+
+#: includes/theme-setup.php:116
+msgid "Sidebar Woo songle Product Page"
+msgstr "Bočna traka Woo stranica proizvoda pjesme"
+
+#: includes/customizer.php:127
+msgid "Sign-in Text"
+msgstr "Tekst za prijavu"
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "Preskoči na sadržaj"
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Žao nam je, ali ništa ne odgovara vašim pojmovima za pretraživanje. Pokušajte ponovno s nekim drugim ključnim riječima."
+
+#: woocommerce/single-product-reviews.php:56
+msgid "There are no reviews yet."
+msgstr "Još nema recenzija."
+
+#: includes/customizer.php:144
+msgid "This only works on standard WP pages, for Elementor pages please check in Elementor on specific page related"
+msgstr ""
+
+#: includes/customizer.php:156
+msgid "Upload/Change Footer logo"
+msgstr "Učitaj/promijeni logotip podnožja"
+
+#: woocommerce/single-product-reviews.php:115
+msgid "Very poor"
+msgstr "Vrlo slaba"
+
+#: functions.php:104
+msgid "We recommend import demo content for theme NexProperty: "
+msgstr "Preporučujemo uvoz demo sadržaja za temu NexProperty:"
+
+#: comments.php:47
+msgid "Website"
+msgstr "Web stranica"
+
+#: includes/customizer.php:199
+msgid "Whether to show Blog page heading or not?"
+msgstr "Treba li prikazati naslov stranice bloga ili ne?"
+
+#: includes/customizer.php:265
+msgid "Whether to show categories on posts or not?"
+msgstr "Treba li prikazati kategorije na objavama ili ne?"
+
+#: includes/customizer.php:177
+msgid "Whether to show Footer Widgets or not?"
+msgstr "Treba li prikazati widgete podnožja ili ne?"
+
+#: includes/customizer.php:118
+#: includes/customizer.php:134
+msgid "Whether to show header sign-in button or not?"
+msgstr "Treba li prikazati gumb za prijavu u zaglavlju ili ne?"
+
+#: includes/customizer.php:255
+msgid "Whether to show number of comments on posts or not?"
+msgstr "Treba li prikazati broj komentara na postove ili ne?"
+
+#: includes/customizer.php:245
+msgid "Whether to show post author info on single post page or not?"
+msgstr "Treba li prikazati informacije o autoru posta na stranici s jednom objavom ili ne?"
+
+#: includes/customizer.php:235
+msgid "Whether to show post author or not?"
+msgstr "Treba li prikazati autora posta ili ne?"
+
+#: includes/customizer.php:225
+msgid "Whether to show post date or not?"
+msgstr "Treba li prikazati datum objave ili ne?"
+
+#: includes/customizer.php:215
+msgid "Whether to show Sidebar or not?"
+msgstr "Treba li prikazati bočnu traku ili ne?"
+
+#: includes/customizer.php:275
+msgid "Whether to show Tags on posts or not?"
+msgstr "Treba li prikazati oznake na objavama ili ne?"
+
+#: includes/customizer.php:293
+msgid "Words to show in Posts content"
+msgstr "Riječi za prikaz u sadržaju objava"
+
+#. Author of the theme
+msgid "wpdirectorykit.com"
+msgstr "wpdirectorykit. com"
+
+#: woocommerce/archive-product.php:49
+#: woocommerce/single-product.php:39
+msgid "Year"
+msgstr "Godina"
+
+#: includes/customizer.php:120
+#: includes/customizer.php:136
+#: includes/customizer.php:179
+#: includes/customizer.php:201
+#: includes/customizer.php:217
+#: includes/customizer.php:227
+#: includes/customizer.php:237
+#: includes/customizer.php:247
+#: includes/customizer.php:257
+#: includes/customizer.php:267
+#: includes/customizer.php:277
+#: includes/customizer.php:286
+msgid "Yes"
+msgstr "Da"
+
+#. %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:105
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr "Morate biti %1$uključeni%2$s da biste objavili recenziju."
+
+#. link to post comments
+#: comments.php:70
+#: woocommerce/single-product-reviews.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Morate biti prijavljeni da biste objavili komentar."
+
+#: comments.php:39
+#: woocommerce/single-product-reviews.php:68
+msgid "Your Name"
+msgstr "Tvoje ime"
+
+#: woocommerce/single-product-reviews.php:109
+msgid "Your rating"
+msgstr "Vaša ocjena"

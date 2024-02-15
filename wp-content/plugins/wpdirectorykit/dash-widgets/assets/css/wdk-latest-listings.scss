@@ -1,0 +1,38 @@
+.wdk-dashwidget-element .wdk-latest-listings {
+
+    .footer {
+        padding-top: 12px;
+        text-align: right;
+    }
+
+    table.wdk-table {
+
+
+        a.d-block {
+            display: block;
+        }
+        img{
+            height:70px;
+            width:110px;
+            object-fit:cover;
+            max-width: 100%;
+            display: block;
+        }
+
+        .actions_col {
+            text-align: right;
+        }
+        .check-column {
+            width: auto;
+            padding: 8px 10px;
+          }
+    }
+
+    @media(max-width:767px) {
+
+        .row-actions{
+            display: none;
+        }
+
+    }
+}

@@ -1,0 +1,2768 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created with Liquid Studio (https://www.liquid-technologies.com)-->
+<root>
+    <fields>
+        <field>
+            <section>
+				SEO
+			</section>
+            <field_label>
+				Short Description
+			</field_label>
+            <field_type>
+				TEXTAREA
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required>
+				1
+			</is_required>
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>1</order_index>
+            <columns_number>
+				12
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				SEO
+			</section>
+            <field_label>
+				Keywords
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>2</order_index>
+            <columns_number>
+				12
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Purpose
+			</field_label>
+            <field_type>
+				DROPDOWN
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list>
+				,Sale,Rent
+			</values_list>
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>3</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Sale Price
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix>
+				$
+			</prefix>
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>4</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Rent Price
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix>
+				$
+			</prefix>
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>5</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Size
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix>
+				m²
+			</suffix>
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>6</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Property Lot Size
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix>m²</suffix>
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>7</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Year Built
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>8</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Floors No
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>9</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Rooms
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>10</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Bedrooms
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>11</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Bathrooms
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>12</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Garages
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>13</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Custom ID
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>14</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Overview
+			</section>
+            <field_label>
+				Energy Efficiency
+			</field_label>
+            <field_type>
+				DROPDOWN
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list>
+				,A,B,C,D,E,F,G,H
+			</values_list>
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>15</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Location
+			</section>
+            <field_label>
+				Country
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>18</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Location
+			</section>
+            <field_label>
+				State/County
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>19</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Location
+			</section>
+            <field_label>
+				City
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>20</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Location
+			</section>
+            <field_label>
+				Area
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>21</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Location
+			</section>
+            <field_label>
+				Street
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>22</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Location
+			</section>
+            <field_label>
+				Street Num
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>23</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Location
+			</section>
+            <field_label>
+				Zip
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>24</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				Equipped Kitchen
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>25</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				Gym
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>26</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				Washer
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>27</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				Heating
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>28</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				Air Conditioning
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>29</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				Elevator
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>30</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				Fireplace
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>31</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				Dishwasher
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>32</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				Microwave
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>33</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				TV Cable
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>34</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				Refrigerator
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>35</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				WiFi
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>36</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Interior Details
+			</section>
+            <field_label>
+				Sauna
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>37</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Outdoor Details
+			</section>
+            <field_label>
+				Pool
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>38</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Outdoor Details
+			</section>
+            <field_label>
+				Garage Attached
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>39</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Outdoor Details
+			</section>
+            <field_label>
+				Front yard
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>40</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Outdoor Details
+			</section>
+            <field_label>
+				Back yard
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>41</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Outdoor Details
+			</section>
+            <field_label>
+				Balcony
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>42</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Outdoor Details
+			</section>
+            <field_label>
+				Grill
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>43</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Outdoor Details
+			</section>
+            <field_label>
+				Parking
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>44</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Outdoor Details
+			</section>
+            <field_label>
+				Outdoor Shower
+			</field_label>
+            <field_type>
+				CHECKBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>45</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Multimedia
+			</section>
+            <field_label>
+				Video URL
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>46</order_index>
+            <columns_number>
+				6
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Multimedia
+			</section>
+            <field_label>
+				Virtual Tour URL
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>47</order_index>
+            <columns_number>
+				6
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Multimedia
+			</section>
+            <field_label>
+				Embed Video Code
+			</field_label>
+            <field_type>
+				TEXTAREA
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>48</order_index>
+            <columns_number>
+				12
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Multimedia
+			</section>
+            <field_label>
+				Embed Virtual Tour Code
+			</field_label>
+            <field_type>
+				TEXTAREA
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>49</order_index>
+            <columns_number>
+				12
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Distances
+			</section>
+            <field_label>
+				Beach
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix>m</suffix>
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>50</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Distances
+			</section>
+            <field_label>
+				Train
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix>m</suffix>
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>51</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Distances
+			</section>
+            <field_label>
+				Metro
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix>m</suffix>
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>52</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Distances
+			</section>
+            <field_label>
+				Bus
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix>m</suffix>
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>53</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Distances
+			</section>
+            <field_label>
+				Pharmacies
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix>m</suffix>
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>54</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Distances
+			</section>
+            <field_label>
+				Bakery
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix>m</suffix>
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>55</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Distances
+			</section>
+            <field_label>
+				Restaurant
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix>m</suffix>
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>56</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>
+				Distances
+			</section>
+            <field_label>
+				Coffe shop
+			</field_label>
+            <field_type>
+				NUMBER
+			</field_type>
+            <prefix />
+            <suffix>m</suffix>
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>57</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>Overview</section>
+            <field_label>Stars</field_label>
+            <field_type>DROPDOWN</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list>,1,2,3,4,5</values_list>
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>16</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section>Overview</section>
+            <field_label>Bads</field_label>
+            <field_type>NUMBER</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index>17</order_index>
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section />
+            <field_label />
+            <field_type />
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index />
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section />
+            <field_label />
+            <field_type />
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index />
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section />
+            <field_label />
+            <field_type />
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index />
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section />
+            <field_label />
+            <field_type />
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index />
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section />
+            <field_label />
+            <field_type />
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <order_index />
+            <columns_number>
+				4
+			</columns_number>
+        </field>
+        <field>
+            <section />
+        </field>
+    </fields>
+    <listings>
+        <listing>
+            <post_title>
+				Tack Parking
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Spanheimerstrasse 36
+			</address>
+            <lat>
+				49.088257784724675
+			</lat>
+            <lng>
+				16.587696907008656
+			</lng>
+            <is_featured />
+            <location_id>
+				20
+			</location_id>
+            <category_id>
+				7
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Parking,Track,Cars</field_3>
+            <field_6>
+				48000
+			</field_6>
+            <field_8>
+				1800
+			</field_8>
+            <field_9>
+				1850
+			</field_9>
+            <field_10>
+				2021
+			</field_10>
+            <field_11>
+				0
+			</field_11>
+            <field_12>
+				0
+			</field_12>
+            <field_13>
+				0
+			</field_13>
+            <field_14>
+				0
+			</field_14>
+            <field_15>
+				0
+			</field_15>
+            <field_64>5</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				Road Parking
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Kelsenstrasse 43
+			</address>
+            <lat>
+				48.23199134320965
+			</lat>
+            <lng>
+				14.250661392921701
+			</lng>
+            <is_featured />
+            <location_id>
+				5
+			</location_id>
+            <category_id>
+				7
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Parking,Track,Cars,Street</field_3>
+            <field_6>
+				32000
+			</field_6>
+            <field_8>
+				2000
+			</field_8>
+            <field_9>
+				2100
+			</field_9>
+            <field_10>
+				1999
+			</field_10>
+            <field_11>
+				0
+			</field_11>
+            <field_12>
+				0
+			</field_12>
+            <field_13>
+				0
+			</field_13>
+            <field_14>
+				0
+			</field_14>
+            <field_15>
+				0
+			</field_15>
+            <field_64>7</field_64>
+        </listing>
+        <listing>
+            <post_title />
+            <post_content />
+            <address />
+            <lat />
+            <lng />
+            <is_featured />
+            <location_id />
+            <category_id />
+            <is_activated />
+            <field_64>3</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				4x Cars Garage
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Domaldova b.b., 21000
+			</address>
+            <lat>
+				48.12943437745315
+			</lat>
+            <lng>
+				16.23777739540031
+			</lng>
+            <is_featured />
+            <location_id>
+				7
+			</location_id>
+            <category_id>
+				6
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Garage,Cars,Underland</field_3>
+            <field_6>
+				15000
+			</field_6>
+            <field_8>
+				40
+			</field_8>
+            <field_9>
+				42
+			</field_9>
+            <field_10>
+				2002
+			</field_10>
+            <field_11>
+				2
+			</field_11>
+            <field_12>
+				0
+			</field_12>
+            <field_13>
+				0
+			</field_13>
+            <field_14>
+				0
+			</field_14>
+            <field_15>
+				4
+			</field_15>
+            <field_64>2</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				White Garage
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Ledinski put 1, 10020
+			</address>
+            <lat>
+				46.92025531537454
+			</lat>
+            <lng>
+				15.480258035339432
+			</lng>
+            <is_featured />
+            <location_id>
+				2
+			</location_id>
+            <category_id>
+				6
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Garage,Cars</field_3>
+            <field_6>
+				37000
+			</field_6>
+            <field_8>
+				30
+			</field_8>
+            <field_9>
+				45
+			</field_9>
+            <field_10>
+				2008
+			</field_10>
+            <field_11>
+				1
+			</field_11>
+            <field_12>
+				0
+			</field_12>
+            <field_13>
+				0
+			</field_13>
+            <field_14>
+				0
+			</field_14>
+            <field_15>
+				1
+			</field_15>
+            <field_64>4</field_64>
+        </listing>
+        <listing>
+            <post_title />
+            <post_content />
+            <address />
+            <field_64>5</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				Manufactory
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Borovska 1, 35000
+			</address>
+            <lat>
+				45.805828539928356
+			</lat>
+            <lng>
+				15.913801409172878
+			</lng>
+            <is_featured />
+            <location_id>
+				18
+			</location_id>
+            <category_id>
+				5
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Industrial,Factory</field_3>
+            <field_6>
+				710000
+			</field_6>
+            <field_8>
+				1500
+			</field_8>
+            <field_9>
+				1600
+			</field_9>
+            <field_10>
+				2008
+			</field_10>
+            <field_11>
+				5
+			</field_11>
+            <field_12>
+				34
+			</field_12>
+            <field_13>
+				2
+			</field_13>
+            <field_14>
+				8
+			</field_14>
+            <field_15>
+				10
+			</field_15>
+            <field_64>7</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				Factory
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Antuna Kosića Rika 4a, 51000
+			</address>
+            <lat>
+				46.29476444388206
+			</lat>
+            <lng>
+				16.359314136950314
+			</lng>
+            <is_featured />
+            <location_id>
+				16
+			</location_id>
+            <category_id>
+				5
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Industrial,Factory</field_3>
+            <field_6>
+				980000
+			</field_6>
+            <field_8>
+				800
+			</field_8>
+            <field_9>
+				980
+			</field_9>
+            <field_10>
+				2007
+			</field_10>
+            <field_11>
+				4
+			</field_11>
+            <field_12>
+				12
+			</field_12>
+            <field_13>
+				7
+			</field_13>
+            <field_14>
+				4
+			</field_14>
+            <field_15>
+				6
+			</field_15>
+            <field_64>9</field_64>
+        </listing>
+        <listing>
+            <post_title />
+            <post_content />
+            <address />
+            <field_64>6</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				Hotel Otrada
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Franjevacki trg 7
+			</address>
+            <lat>
+				46.31089291474789
+			</lat>
+            <lng>
+				16.218666174635473
+			</lng>
+            <is_featured />
+            <location_id>
+				16
+			</location_id>
+            <category_id>
+				4
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Flat,Business</field_3>
+            <field_6>
+				230000
+			</field_6>
+            <field_8>
+				100
+			</field_8>
+            <field_9>
+				120
+			</field_9>
+            <field_10>
+				2005
+			</field_10>
+            <field_11>
+				18
+			</field_11>
+            <field_12>
+				6
+			</field_12>
+            <field_13>
+				3
+			</field_13>
+            <field_14>
+				2
+			</field_14>
+            <field_15>
+				4
+			</field_15>
+            <field_64>5</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				Gagarin 4-room Apartment
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Pertholzer Strasse 47
+			</address>
+            <lat>
+				45.17041997262667
+			</lat>
+            <lng>
+				18.020509640558743
+			</lng>
+            <is_featured />
+            <location_id>
+				14
+			</location_id>
+            <category_id>
+				4
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Flat,Business</field_3>
+            <field_6>
+				170000
+			</field_6>
+            <field_8>
+				150
+			</field_8>
+            <field_9>
+				240
+			</field_9>
+            <field_10>
+				1985
+			</field_10>
+            <field_11>
+				18
+			</field_11>
+            <field_12>
+				10
+			</field_12>
+            <field_13>
+				7
+			</field_13>
+            <field_14>
+				2
+			</field_14>
+            <field_15>
+				1
+			</field_15>
+            <field_64>1</field_64>
+        </listing>
+        <listing>
+            <post_title />
+            <post_content />
+            <address />
+            <field_64>3</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				Wheat fields
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Via Belviglieri 170
+			</address>
+            <lat>
+				47.08508535995386
+			</lat>
+            <lng>
+				13.095267071208847
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				97
+			</location_id>
+            <category_id>
+				3
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Wheat fields,Agriculture</field_3>
+            <field_6>
+				480000
+			</field_6>
+            <field_8>
+				5000
+			</field_8>
+            <field_9>
+				7000
+			</field_9>
+            <field_10>
+				1960
+			</field_10>
+            <field_11>
+				0
+			</field_11>
+            <field_12>
+				0
+			</field_12>
+            <field_13>
+				0
+			</field_13>
+            <field_14>
+				0
+			</field_14>
+            <field_15>
+				0
+			</field_15>
+            <field_64>2</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				Primroselands
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Via Belviglieri 158
+			</address>
+            <lat>
+				46.86019101567027
+			</lat>
+            <lng>
+				13.270861441012647
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				97
+			</location_id>
+            <category_id>
+				3
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Primroselands,Agriculture</field_3>
+            <field_6>
+				600000
+			</field_6>
+            <field_8>
+				9000
+			</field_8>
+            <field_9>
+				11000
+			</field_9>
+            <field_10>
+				1950
+			</field_10>
+            <field_11 />
+            <field_12>
+				0
+			</field_12>
+            <field_13>
+				0
+			</field_13>
+            <field_14>
+				0
+			</field_14>
+            <field_15>
+				0
+			</field_15>
+            <field_64>4</field_64>
+        </listing>
+        <listing>
+            <post_title />
+            <post_content />
+            <address />
+            <field_64>3</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				Meadow View
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				G.A. van Nispenstraat 167
+			</address>
+            <lat>
+				50.02185841773447
+			</lat>
+            <lng>
+				14.469632647962044
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				97
+			</location_id>
+            <category_id>
+				2
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Apartment,Flat,House</field_3>
+            <field_6>
+				170000
+			</field_6>
+            <field_8>
+				200
+			</field_8>
+            <field_9>
+				450
+			</field_9>
+            <field_10>
+				2019
+			</field_10>
+            <field_11>
+				32
+			</field_11>
+            <field_12>
+				8
+			</field_12>
+            <field_13>
+				4
+			</field_13>
+            <field_14>
+				3
+			</field_14>
+            <field_15>
+				3
+			</field_15>
+            <field_64>5</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				SeaLine Apartment
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Ul. Stare Gajnice 14, 10090
+			</address>
+            <lat>
+				45.8131847
+			</lat>
+            <lng>
+				15.9771774
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				98
+			</location_id>
+            <category_id>
+				2
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>Apartment,Flat,House</field_3>
+            <field_6>
+				380000
+			</field_6>
+            <field_8>
+				350
+			</field_8>
+            <field_9>
+				450
+			</field_9>
+            <field_10>
+				2016
+			</field_10>
+            <field_11>
+				15
+			</field_11>
+            <field_12>
+				12
+			</field_12>
+            <field_13>
+				7
+			</field_13>
+            <field_14>
+				3
+			</field_14>
+            <field_15>
+				2
+			</field_15>
+            <field_64>6</field_64>
+        </listing>
+        <listing>
+            <post_title />
+            <post_content />
+            <address />
+            <field_64>4</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				Icy Apartment
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Mattersburger Strasse 27
+			</address>
+            <lat>
+				48.2083537
+			</lat>
+            <lng>
+				16.3725042
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				98
+			</location_id>
+            <category_id>
+				1
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>House,Lux</field_3>
+            <field_6>
+				75000
+			</field_6>
+            <field_8>
+				60
+			</field_8>
+            <field_9>
+				70
+			</field_9>
+            <field_10>
+				2016
+			</field_10>
+            <field_11>
+				1
+			</field_11>
+            <field_12>
+				7
+			</field_12>
+            <field_13>
+				4
+			</field_13>
+            <field_14>
+				2
+			</field_14>
+            <field_15>
+				1
+			</field_15>
+            <field_64>6</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				Kingston House
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Budapest 41459 Bogisich Cove
+			</address>
+            <lat>
+				46.635700
+			</lat>
+            <lng>
+				14.311817
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				99
+			</location_id>
+            <category_id>
+				1
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>House,Lux</field_3>
+            <field_6>
+				125000
+			</field_6>
+            <field_8>
+				90
+			</field_8>
+            <field_9>
+				80
+			</field_9>
+            <field_10>
+				2015
+			</field_10>
+            <field_11>
+				1
+			</field_11>
+            <field_12>
+				3
+			</field_12>
+            <field_13>
+				2
+			</field_13>
+            <field_14>
+				1
+			</field_14>
+            <field_15>
+				2
+			</field_15>
+            <field_50>
+				https://www.youtube.com/watch?v=y9j-BL5ocW8
+			</field_50>
+            <field_64>5</field_64>
+            <listing>
+                <post_title />
+                <post_content />
+                <address />
+            </listing>
+        </listing>
+        <listing>
+            <post_title />
+            <post_content />
+            <address />
+            <field_64>7</field_64>
+        </listing>
+        <listing>
+            <post_title>
+				Primrose House
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Kalhamer Strasse 63
+			</address>
+            <lat>
+				49.688954878870305
+			</lat>
+            <lng>
+				18.179585417281604
+			</lng>
+            <is_featured />
+            <location_id>
+				99
+			</location_id>
+            <category_id>
+				1
+			</category_id>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</field_2>
+            <field_3>House,Lux</field_3>
+            <field_6>
+				35000
+			</field_6>
+            <field_8>
+				80
+			</field_8>
+            <field_9>
+				70
+			</field_9>
+            <field_10>
+				2010
+			</field_10>
+            <field_11>
+				2
+			</field_11>
+            <field_12>
+				4
+			</field_12>
+            <field_13>
+				3
+			</field_13>
+            <field_14>
+				1
+			</field_14>
+            <field_15>
+				1
+			</field_15>
+            <field_64>2</field_64>
+        </listing>
+    </listings>
+    <categories>
+        <category>
+            <category_title>
+				House
+			</category_title>
+            <font_icon_code>fa fa-home</font_icon_code>
+            <image_id>
+				real-estate-category-image-1.jpg
+			</image_id>
+            <icon_id>
+				real-estate-category-1.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Apartment
+			</category_title>
+            <font_icon_code>fas fa-building</font_icon_code>
+            <image_id>
+				real-estate-category-image-2.jpg
+			</image_id>
+            <icon_id>
+				real-estate-category-2.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Agriculture
+			</category_title>
+            <font_icon_code>fas fa-tractor</font_icon_code>
+            <image_id>
+				real-estate-category-image-3.jpg
+			</image_id>
+            <icon_id>
+				real-estate-category-3.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Commercial
+			</category_title>
+            <font_icon_code>fas fa-dollar-sign</font_icon_code>
+            <image_id>
+				real-estate-category-image-4.jpg
+			</image_id>
+            <icon_id>
+				real-estate-category-4.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Industrial
+			</category_title>
+            <font_icon_code>fa fa-industry</font_icon_code>
+            <image_id>
+				real-estate-category-image-5.jpg
+			</image_id>
+            <icon_id>
+				real-estate-category-7.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Garage
+			</category_title>
+            <font_icon_code>fas fa-warehouse</font_icon_code>
+            <image_id>
+				real-estate-category-image-6.jpg
+			</image_id>
+            <icon_id>
+				real-estate-category-5.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Parking
+			</category_title>
+            <font_icon_code>fas fa-parking</font_icon_code>
+            <image_id>
+				real-estate-category-image-7.jpg
+			</image_id>
+            <icon_id>
+				real-estate-category-6.png
+			</icon_id>
+            <code />
+        </category>
+    </categories>
+    <search_form><![CDATA[[{"field_id":"search","class":"","query_type":"","columns":""},{"field_id":"loc","class":"","query_type":"","columns":""},{"field_id":"cat","class":"","query_type":"","columns":""},{"field_id":"6","class":"","query_type":"min_max","columns":""},{"field_id":"29","class":"","query_type":"","columns":""},{"field_id":"33","class":"","query_type":"","columns":""},{"field_id":"37","class":"","query_type":"","columns":""},{"field_id":"38","class":"","query_type":"","columns":""},{"field_id":"31","class":"","query_type":"","columns":""}]]]></search_form>
+    <search_form_premium><![CDATA[[{"field_id":"search","class":"","query_type":"","columns":""},{"field_id":"loc","class":"","query_type":"","columns":""},{"field_id":"cat","class":"","query_type":"","columns":""},{"field_id":"6","class":"","query_type":"min_max","columns":""},{"field_id":"booking_date","class":"","query_type":"","columns":""},{"field_id":"29","class":"","query_type":"","columns":""},{"field_id":"33","class":"","query_type":"","columns":""},{"field_id":"37","class":"","query_type":"","columns":""},{"field_id":"38","class":"","query_type":"","columns":""},{"field_id":"31","class":"","query_type":"","columns":""}]]]></search_form_premium>
+    <resultitem><![CDATA[[[{"field_id":"location_id","class":"","columns":""}],[{"field_id":"5","class":"","columns":""}],[{"field_id":"post_title","class":"","columns":""}],[{"field_id":"2","class":"","columns":""}],[{"field_id":"13","class":"","columns":""},{"field_id":"14","class":"","columns":""},{"field_id":"8","class":"","columns":""}],[{"field_id":"6","class":"","columns":""}]]]]></resultitem>
+    <replace>
+        <text from="Listings" to="Properties" />
+        <text from="Listing" to="Property" />
+    </replace>
+</root>

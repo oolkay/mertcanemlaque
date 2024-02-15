@@ -1,0 +1,60 @@
+$color_hover: #0074e4;
+$primary_color: #0074e4;
+$secondary_color: #0052a2;
+$text_color: #161616;
+
+.wdk-categories-card {
+    & {
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    > a {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+
+    .wdk-thumbnail .wdk-image {
+        object-fit: cover;
+        height: 100%;
+        object-position: center center;
+        width: 100%;
+    }
+
+    .wdk-thumbnail .wdk-icon {
+        object-fit: contain;
+        height: auto;
+        object-position: center center;
+        width: 100%;
+        margin: 0 auto;
+    }
+     
+    .wdk-title {
+        text-align: center;
+        color: #161616;
+        font-size: 18px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+
+    .slick-slide {
+        padding: 15px 15px;
+    }
+
+}    
+
+.wdk-categories-grid .wdk-carousel_ini  {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+    
+.wdk-categories-grid .slick-dots li button::before {
+    display: none;
+}

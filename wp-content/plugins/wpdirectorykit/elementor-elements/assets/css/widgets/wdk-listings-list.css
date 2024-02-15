@@ -1,0 +1,69 @@
+.wdk-listings-list .wdk-row .wdk-col {
+  margin-bottom: 15px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  flex: 0 0 100%;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.wdk-listings-list .listing-item {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.wdk-listings-list .listing-item .listing-img-sec {
+  -webkit-flex: 0 0 90px;
+  -ms-flex: 0 0 90px;
+  flex: 0 0 90px;
+  font-size: 0;
+}
+
+.wdk-listings-list .listing-item .listing-img-sec a {
+  display: inline-block;
+}
+
+.wdk-listings-list .listing-item .listing-img-sec img {
+  object-fit: cover;
+  width: 100%;
+  height: 70px;
+}
+
+.wdk-listings-list .listing-item .listing-inf-sec {
+  -webkit-flex: 1 2;
+  -ms-flex: 1 2;
+  flex: 1 2;
+  padding: 5px 10px;
+}
+
+.wdk-listings-list .listing-item .listing-inf-sec .title {
+  color: #000;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 9px;
+  transition: all 0.4s ease-in-out;
+}
+
+.wdk-listings-list .listing-item .listing-inf-sec .title a:hover,
+.wdk-listings-list .listing-item .listing-inf-sec .title a {
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+}
+
+.wdk-listings-list .listing-item .listing-inf-sec .title:hover {
+  color: #0074e4;
+}
+
+.wdk-listings-list .listing-item .listing-inf-sec .price {
+  color: #0074e4;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}

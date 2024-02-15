@@ -1,0 +1,17 @@
+.test {
+  color: red;
+}
+
+.wdk-listings-carousel .wdk_results_listings_slider_ini .wdk-listing-card {
+  margin: 0;
+}
+
+.wdk-listings-carousel .slick-dots li .wdk_lr_dot {
+  color: #8e8e8e;
+  transition: all .15s;
+}
+
+.wdk-listings-carousel .slick-dots li .wdk_lr_dot:hover,
+.wdk-listings-carousel .slick-dots li.slick-active .wdk_lr_dot {
+  color: #242526;
+}

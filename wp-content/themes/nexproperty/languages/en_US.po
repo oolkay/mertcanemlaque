@@ -1,0 +1,599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nexproperty\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-08-15 10:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.2.4\n"
+
+#. 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:36
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/archive-product.php:53
+#: woocommerce/single-product.php:43
+msgid "404"
+msgstr ""
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:78
+msgid "Add a review"
+msgstr ""
+
+#: includes/ocdi/configuration.php:407
+msgid "Add Car"
+msgstr ""
+
+#: includes/customizer.php:146
+#: includes/ocdi/configuration.php:409
+msgid "Add Property"
+msgstr ""
+
+#: includes/ocdi/configuration.php:365
+msgid "Aenean sollicitudin, lorem quis bibend auctor, nisi elit consequat ipsum, necittis sem nibh id elit. Duis sed odio enim."
+msgstr ""
+
+#: woocommerce/archive-product.php:65
+#: woocommerce/single-product.php:47
+msgid "Archive"
+msgstr ""
+
+#: woocommerce/archive-product.php:51
+#: woocommerce/single-product.php:41
+msgid "Author"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:113
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/archive-product.php:26
+#: woocommerce/single-product.php:16
+msgid "Blog"
+msgstr ""
+
+#: includes/customizer.php:194
+msgid "Blog Page"
+msgstr ""
+
+#: includes/customizer.php:211
+msgid "Blog Standard"
+msgstr ""
+
+#: template-parts/content-page.php:36
+#: template-parts/content.php:37
+msgid "by"
+msgstr ""
+
+#: comments.php:58
+msgid "Cancel Reply"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Cancel Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:121
+msgid "Comment"
+msgstr ""
+
+#: includes/comment-walker.php:13
+msgid "Comments"
+msgstr ""
+
+#: comments.php:30
+msgid "Comments are closed."
+msgstr ""
+
+#: template-parts/content-page.php:70
+#: template-parts/content.php:77
+msgid "Continue Reading "
+msgstr ""
+
+#: includes/customizer.php:186
+msgid "Copyright Text"
+msgstr ""
+
+#: footer.php:62
+msgid "Created using WPDirectoryKit"
+msgstr ""
+
+#: header.php:82
+msgid "Dash"
+msgstr ""
+
+#: woocommerce/archive-product.php:45
+#: woocommerce/single-product.php:35
+msgid "Day"
+msgstr ""
+
+#: comments.php:43
+#: woocommerce/single-product-reviews.php:72
+msgid "Email"
+msgstr ""
+
+#: includes/customizer.php:171
+msgid "Email Address"
+msgstr ""
+
+#: includes/customizer.php:187
+msgid "Enter Copyright text"
+msgstr ""
+
+#: includes/customizer.php:172
+msgid "Enter Email Address"
+msgstr ""
+
+#: includes/customizer.php:167
+msgid "Enter Phone Number"
+msgstr ""
+
+#: includes/customizer.php:144
+msgid "Enter Property button Text"
+msgstr ""
+
+#: includes/customizer.php:128
+msgid "Enter Sign-In button Text"
+msgstr ""
+
+#: includes/customizer.php:209
+msgid "Enter the blog page heading. Leave empty if you want to show default page name"
+msgstr ""
+
+#: includes/customizer.php:161
+msgid "Enter the content"
+msgstr ""
+
+#: includes/customizer.php:294
+msgid "Enter the number of words to be shown in the posts content on main blog page"
+msgstr ""
+
+#: template-parts/content-page.php:58
+#: template-parts/content.php:59
+msgid "Featured"
+msgstr ""
+
+#: includes/customizer.php:151
+#: includes/theme-setup.php:125
+msgid "Footer"
+msgstr ""
+
+#: includes/customizer.php:160
+msgid "Footer Content"
+msgstr ""
+
+#: includes/theme-setup.php:40
+msgid "Footer Links"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:112
+msgid "Good"
+msgstr ""
+
+#: includes/customizer.php:113
+msgid "Header"
+msgstr ""
+
+#: woocommerce/archive-product.php:33
+#: woocommerce/single-product.php:23
+msgid "Homepage"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://wpdirectorykit.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://wpdirectorykit.com/themes/nexproperty.html"
+msgstr ""
+
+#: functions.php:104
+msgid "import now"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: comments.php:55
+msgid "Leave A Reply"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:57
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:80
+#, php-format
+msgid "Leave a Review to %s"
+msgstr ""
+
+#: header.php:74
+msgid "Log Out"
+msgstr ""
+
+#. logged link to post comments
+#: comments.php:75
+#: woocommerce/single-product-reviews.php:96
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: includes/customizer.php:130
+#: includes/ocdi/configuration.php:404
+msgid "Login"
+msgstr ""
+
+#: includes/customizer.php:155
+msgid "Logo"
+msgstr ""
+
+#: header.php:41
+msgid "logo"
+msgstr ""
+
+#: header.php:64
+#: includes/theme-setup.php:41
+msgid "Mobile Menu"
+msgstr ""
+
+#: woocommerce/archive-product.php:47
+#: woocommerce/single-product.php:37
+msgid "Month"
+msgstr ""
+
+#: includes/ocdi/configuration.php:397
+msgid "Newsletter"
+msgstr ""
+
+#. Name of the theme
+#: includes/customizer.php:26
+msgid "NexProperty"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:52
+msgid "Next"
+msgstr ""
+
+#: includes/customizer.php:121
+#: includes/customizer.php:137
+#: includes/customizer.php:180
+#: includes/customizer.php:202
+#: includes/customizer.php:218
+#: includes/customizer.php:228
+#: includes/customizer.php:238
+#: includes/customizer.php:248
+#: includes/customizer.php:258
+#: includes/customizer.php:268
+#: includes/customizer.php:278
+#: includes/customizer.php:287
+msgid "No"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:114
+msgid "Not that bad"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: template-parts/content-page.php:77
+#: template-parts/content.php:84
+#: woocommerce/archive-product.php:35
+#: woocommerce/single-product.php:25
+msgid "Page"
+msgstr ""
+
+#: includes/customizer.php:208
+msgid "Page Heading Text"
+msgstr ""
+
+#: template-parts/content-page.php:77
+#: template-parts/content.php:84
+msgid "Pages:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:111
+msgid "Perfect"
+msgstr ""
+
+#: includes/customizer.php:166
+msgid "Phone Number"
+msgstr ""
+
+#: includes/ocdi/configuration.php:395
+msgid "Popular Properties"
+msgstr ""
+
+#: template-parts/navigation.php:23
+msgid "Post"
+msgstr ""
+
+#: comments.php:64
+msgid "Post comment"
+msgstr ""
+
+#: comments.php:61
+msgid "Post Your Reply"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Post Your Review"
+msgstr ""
+
+#: includes/comment-walker.php:49
+msgid "Posted on "
+msgstr ""
+
+#: archive.php:49
+msgid "Posts navigation"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:51
+msgid "Previous"
+msgstr ""
+
+#: includes/theme-setup.php:39
+msgid "Primary Menu"
+msgstr ""
+
+#: woocommerce/single-product.php:14
+msgid "Product"
+msgstr ""
+
+#: includes/customizer.php:143
+msgid "Property Button Text"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:110
+msgid "Rate&hellip;"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. Description of the theme
+msgid "Real Estate Directory Listing Theme for Real Estate Agency, Realtor, Broker, Classifieds Ads and will help you to run any type of Classified Directory or Listings Business. Theme is mostly build for Elementor so everything can be customized visually. Real Estate Agency Directory Features: Manage Listings, Manage Categories, Manage Fields, Select listings agent, Manage indoor amenities, Manage outdoor amenities, Multimedia fields integration, Full Elementor compatibility, Messaging support, Demo data import for Real Estate and Car Dealership, Open street maps support. Check demo version on https://wpdirectorykit.com/theme_preview/nexproperty"
+msgstr ""
+
+#: includes/comment-walker.php:59
+msgid "Reply"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:39
+msgid "Reviews"
+msgstr ""
+
+#: comments.php:93
+msgid "Save my name, email, and website in this browser for the next time I comment"
+msgstr ""
+
+#: searchform.php:18
+#: woocommerce/archive-product.php:41
+#: woocommerce/single-product.php:31
+msgid "Search"
+msgstr ""
+
+#: searchform.php:17
+msgid "Search..."
+msgstr ""
+
+#: woocommerce/archive-product.php:63
+#: woocommerce/single-product.php:45
+msgid "Shop"
+msgstr ""
+
+#: includes/customizer.php:244
+msgid "Show author info on single post?"
+msgstr ""
+
+#: includes/customizer.php:264
+msgid "Show categories?"
+msgstr ""
+
+#: includes/customizer.php:254
+msgid "Show comments count?"
+msgstr ""
+
+#: includes/customizer.php:176
+msgid "Show Footer Widgets?"
+msgstr ""
+
+#: includes/customizer.php:117
+msgid "Show Login button?"
+msgstr ""
+
+#: includes/customizer.php:198
+msgid "Show Page Heading?"
+msgstr ""
+
+#: includes/customizer.php:234
+msgid "Show post author?"
+msgstr ""
+
+#: includes/customizer.php:224
+msgid "Show post date?"
+msgstr ""
+
+#: includes/customizer.php:284
+msgid "Show post excerpt, instead content?"
+msgstr ""
+
+#: includes/customizer.php:133
+msgid "Show Property Button?"
+msgstr ""
+
+#: includes/customizer.php:214
+msgid "Show Sidebar?"
+msgstr ""
+
+#: includes/customizer.php:274
+msgid "Show Tags?"
+msgstr ""
+
+#: includes/theme-setup.php:98
+msgid "Sidebar"
+msgstr ""
+
+#: includes/theme-setup.php:107
+msgid "Sidebar Woo Products Page"
+msgstr ""
+
+#: includes/theme-setup.php:116
+msgid "Sidebar Woo songle Product Page"
+msgstr ""
+
+#: includes/customizer.php:127
+msgid "Sign-in Text"
+msgstr ""
+
+#: header.php:35
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:56
+msgid "There are no reviews yet."
+msgstr ""
+
+#: includes/customizer.php:144
+msgid "This only works on standard WP pages, for Elementor pages please check in Elementor on specific page related"
+msgstr ""
+
+#: includes/customizer.php:156
+msgid "Upload/Change Footer logo"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:115
+msgid "Very poor"
+msgstr ""
+
+#: functions.php:104
+msgid "We recommend import demo content for theme NexProperty: "
+msgstr ""
+
+#: comments.php:47
+msgid "Website"
+msgstr ""
+
+#: includes/customizer.php:199
+msgid "Whether to show Blog page heading or not?"
+msgstr ""
+
+#: includes/customizer.php:265
+msgid "Whether to show categories on posts or not?"
+msgstr ""
+
+#: includes/customizer.php:177
+msgid "Whether to show Footer Widgets or not?"
+msgstr ""
+
+#: includes/customizer.php:118
+#: includes/customizer.php:134
+msgid "Whether to show header sign-in button or not?"
+msgstr ""
+
+#: includes/customizer.php:255
+msgid "Whether to show number of comments on posts or not?"
+msgstr ""
+
+#: includes/customizer.php:245
+msgid "Whether to show post author info on single post page or not?"
+msgstr ""
+
+#: includes/customizer.php:235
+msgid "Whether to show post author or not?"
+msgstr ""
+
+#: includes/customizer.php:225
+msgid "Whether to show post date or not?"
+msgstr ""
+
+#: includes/customizer.php:215
+msgid "Whether to show Sidebar or not?"
+msgstr ""
+
+#: includes/customizer.php:275
+msgid "Whether to show Tags on posts or not?"
+msgstr ""
+
+#: includes/customizer.php:293
+msgid "Words to show in Posts content"
+msgstr ""
+
+#. Author of the theme
+msgid "wpdirectorykit.com"
+msgstr ""
+
+#: woocommerce/archive-product.php:49
+#: woocommerce/single-product.php:39
+msgid "Year"
+msgstr ""
+
+#: includes/customizer.php:120
+#: includes/customizer.php:136
+#: includes/customizer.php:179
+#: includes/customizer.php:201
+#: includes/customizer.php:217
+#: includes/customizer.php:227
+#: includes/customizer.php:237
+#: includes/customizer.php:247
+#: includes/customizer.php:257
+#: includes/customizer.php:267
+#: includes/customizer.php:277
+#: includes/customizer.php:286
+msgid "Yes"
+msgstr ""
+
+#. %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:105
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#. link to post comments
+#: comments.php:70
+#: woocommerce/single-product-reviews.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:39
+#: woocommerce/single-product-reviews.php:68
+msgid "Your Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:109
+msgid "Your rating"
+msgstr ""

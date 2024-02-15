@@ -1,0 +1,108 @@
+.wdk-element .wdk-listing-fields-section .wdk-row .wdk-col,
+.wdk-element .wdk-listing-fields-section .wdk-row  {
+    margin: 0;
+}
+
+.wdk-listing-fields-section {
+    .section-title {
+        margin: 0;
+    }
+
+    .wdk-row .wdk-col {
+        padding: 5px 0;
+    }
+
+    .wdk-row .wdk-col .field-group {
+        display: flex;
+        align-items: baseline !important;
+    }
+
+    .wdk-row .wdk-col .field_value {
+        padding-left: 3px;
+        word-break: break-all; 
+    }
+
+    .wdk-row .wdk-col.reverse .field-group {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    .wdk-row .wdk-col.column .field-group {
+        flex-direction: column;
+        justify-content: flex-end;
+        > * {
+            width: 100%;
+        }
+    }
+
+    .wdk-row .wdk-col.column-reverse .field-group {
+        flex-direction: column-reverse;
+        justify-content: stretch;
+        justify-content: flex-end;
+         > * {
+             width: 100%;
+         }
+    }
+
+    .wdk-row .wdk-col.reverse .field_value {
+        padding-right: 3px;
+        padding-left: 0;
+    }
+
+    .wdk-row .wdk-col.no_label .field_value {
+        width: 100%;
+    }
+
+    .wdk-col.CHECKBOX .field_value .value {
+        width: 19px;
+        display: inline-block;
+    }
+
+    .wdk-col .field_icon {
+        display: block;
+    }
+    
+    .wdk-icon {
+        margin-right: 3px;
+        max-width: 18px;
+        max-height: 18px;
+    }
+
+    .wdk-col {
+        justify-content: flex-start;
+        align-items: center;
+    } 
+
+    .wdk-col .field_icon {
+        order: 1;
+    }
+
+    .wdk-col .field_label {
+        order: 2;
+    }
+
+    .wdk-col .field_value {
+        order: 3;
+    }
+    
+    .wdk-col.reverse .field_icon {
+        order: 3;
+    }
+
+    .wdk-col.reverse .field_label {
+        order: 2;
+    }
+
+    .wdk-col.reverse .field_value {
+        order: 1;
+    }
+
+    .wdk-col.CHECKBOX .field_value {
+        order: 1;
+    } 
+
+    .wdk-col.reverse.CHECKBOX .field_value {
+        order: 3;
+    } 
+
+}

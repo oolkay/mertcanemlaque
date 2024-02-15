@@ -1,0 +1,6 @@
+#wdk_dashboard_widget_stats_earning .edit-box.open-box,
+#wdk_dashboard_widget_stats_listings .edit-box.open-box,
+#wdk_dashboard_widget_stats_usage .edit-box.open-box,
+#wdk_dashboard_widget_map_listings .edit-box.open-box {
+  display: none;
+}

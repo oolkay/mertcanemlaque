@@ -1,0 +1,21 @@
+.WdkScrollMobileSwipe {
+    @media (max-width: 767px) {
+        display: flex;
+        flex-wrap: nowrap !important;
+        overflow: auto !important;
+
+        .elementor-column {
+            width: 100%;
+            flex: 0 0 100%;
+        }
+    }
+} 
+
+.WdkScrollMobileSwipe_elementor_enable {
+    @media (max-width: 767px) {
+        .elementor-column {
+            width: 100%;
+            flex: 0 0 100%;
+        }
+    }
+}

@@ -1,0 +1,181 @@
+@charset 'UTF-8';
+
+/*------------------------------------------------------------------
+[Media Stylesheet]
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Min width 992px and Max width: 1199px
+2. Max width: 1140px 
+3. Max width: 992px
+4. Max width: 992px and min width: 768px
+5. Max width: 767px
+6. Max width: 480px
+7. Custom media for IE
+
+-------------------------------------------------------------------*/
+@media (min-width: 1300px){
+
+}
+
+@media (max-width: 1270px) {
+}
+
+@media (min-width: 1140px) and (max-width: 1350px) {}
+
+@media (max-width: 1199px) {}
+
+/*------------------------------------------------------------------
+[1. Min width 992px and Max width: 1199px ]
+*/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/*------------------------------------------------------------------
+[2. Max width: 1140px ]
+*/
+@media (max-width: 1140px) {
+}
+
+/*------------------------------------------------------------------
+[3. Max width: 991px ]
+*/
+@media (max-width: 991px) {
+    .wdk-wrap {
+        .listing_custom_fields div.wdk-field-edit.wdk-col-4 {
+            -webkit-flex: 0 0 calc(100% / 2);
+            flex: 0 0 calc(100% / 2);
+            max-width: calc(100% / 2);
+        }
+    }
+}
+
+/*------------------------------------------------------------------
+[4. Max width: 992px and min width: 768px]
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/*------------------------------------------------------------------
+[5. Max width: 767px]
+*/
+@media (max-width: 767px) {
+    .wdk-wrap {
+        .wdk-side-content {
+            flex-direction: column;
+            padding: 0;
+        }
+        .wdk-side-content .wdk-side {
+            flex:  0 0 100%;
+        }
+
+        .listing_edit_map {
+            margin-top: 10px;
+            width: 100%;
+            min-width: 100%;
+        }
+
+        .wdk-side-content .wdk-col.sidebar {
+            flex: 1 2 30%;
+            min-width: auto;
+        }
+
+        .wdk-builder-elements {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .wdk-builder-container .wdk-builder-elements-column,
+        .drop-container{
+            width: 50%;
+        }
+
+        #wdk-drop .widget.ui-draggable.ui-sortable-handle,
+        #wdk-drop .ui-sortable-placeholder.widget-placeholder,
+        .wdk-wrap .drop-container .widget.ui-draggable.ui-sortable-handle, 
+        .wdk-wrap .drop-container .ui-sortable-placeholder.widget-placeholder {
+            width: 100%;
+            margin: 0px 15px 15px 0px;
+            float: left;
+        }
+
+        .listing_custom_fields div.wdk-field-edit[class*="wdk-col"] {
+            -webkit-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .winter_mvc-media .winter_mvc-media-card {
+            flex: 1 2 auto;
+        }
+
+        .button  span.dashicons {
+            line-height: 1.5;
+        }
+
+    }
+
+}
+
+/*------------------------------------------------------------------
+[6. Max width: 540px]
+*/
+
+@media (max-width:600px) {}
+
+/*------------------------------------------------------------------
+[6. Max width: 576px]
+*/
+
+@media (max-width:576px) {
+    .wdk-wrap {
+        div.wdk-field-edit label {
+            width: 100%;
+        }
+        
+        div.wdk-field-edit > label {
+            margin-bottom: 15px;
+        }
+
+        div.wdk-field-edit div.wdk-field-container {
+            input, select, textarea {
+               margin-bottom: 10px;
+           }
+        }
+
+        div.wdk-field-edit div.wdk-field-container {
+            padding: 0;
+            width: 100%;
+        }
+
+        div.wdk-field-edit p.wdk-hint {
+            margin-top: 0;
+            font-size: 12px;
+        }
+
+        .inputbox_map {
+            height: 250px;
+        }
+    }
+ }
+
+/*------------------------------------------------------------------
+[6. Max width: 540px]
+*/
+
+@media (max-width:540px) {}
+
+
+/*------------------------------------------------------------------
+[7. Custom media for IE]
+*/
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+}
+
+@media screen and (max-width:1140px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+}
+
+@media screen and (max-width:768px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+}

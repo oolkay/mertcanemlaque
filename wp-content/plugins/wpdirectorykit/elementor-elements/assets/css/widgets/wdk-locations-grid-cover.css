@@ -1,0 +1,149 @@
+.wdk-locations-card-cover {
+  /* animation */
+}
+
+.wdk-locations-card-cover {
+  margin-bottom: 15px;
+  position: relative;
+  height: 370px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.wdk-locations-card-cover > a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.wdk-locations-card-cover .wdk-image {
+  position: absolute;
+  object-fit: cover;
+  height: 100%;
+  object-position: center center;
+  width: 100%;
+}
+
+.wdk-locations-card-cover .wdk-icon {
+  position: absolute;
+  object-fit: contain;
+  height: auto;
+  object-position: center center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wdk-locations-card-cover .wdk-locations-card-body {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+}
+
+.wdk-locations-card-cover .wdk-locations-card-body .wdk-left-content {
+  flex: 1 2;
+  padding: 0 0 22px 24px;
+}
+
+.wdk-locations-card-cover .wdk-locations-card-body .wdk-action-left,
+.wdk-locations-card-cover .wdk-locations-card-body .wdk-action-right {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.wdk-locations-card-cover .wdk-locations-card-body .wdk-action-left {
+  display: none;
+  padding: 5px 10px;
+}
+
+.wdk-locations-card-cover .wdk-locations-card-body .wdk-action-left img {
+  max-width: 100%;
+}
+
+.wdk-locations-card-cover .wdk-locations-card-body .wdk-location-btn {
+  border: 1px solid #e0e1e6;
+  padding: 12px 12px;
+  color: #fff;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  margin: 15px;
+}
+
+.wdk-locations-card-cover .wdk-locations-card-body .wdk-title {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.wdk-locations-card-cover .wdk-locations-card-body .wdk-listings-count {
+  color: #fff;
+  margin: 0px;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.wdk-locations-card-cover:hover .wdk-location-btn, .wdk-locations-card-cover:focus .wdk-location-btn {
+  background: #fff;
+  color: #aeb4b6;
+  border-color: transparent;
+}
+
+.wdk-locations-card-cover:before, .wdk-locations-card-cover:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(0, 82, 162, 0.95);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.wdk-locations-card-cover:after {
+  right: 0;
+  left: auto;
+}
+
+.wdk-locations-card-cover .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 82, 162, 0.7);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.wdk-locations-card-cover:hover::before, .wdk-locations-card-cover:hover::after {
+  opacity: 1;
+  visibility: visible;
+  width: 0;
+}
+
+.wdk-locations-card-cover:hover .overlay {
+  opacity: 1;
+}
+
+.wdk-locations-card-cover .wdk-locations-card-body .wdk-location-btn {
+  transition: all 0.4s linear;
+  will-change: all;
+}

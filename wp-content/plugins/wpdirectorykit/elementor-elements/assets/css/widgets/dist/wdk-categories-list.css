@@ -1,0 +1,37 @@
+.wdk-categories-list .wdk-categories .wdk-item, .wdk-categories-list .wdk-categories {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s ease-in-out;
+}
+.wdk-categories-list .wdk-categories .wdk-item:last-child {
+  margin-bottom: 0 !important;
+}
+.wdk-categories-list .wdk-categories .wdk-link i {
+  margin-right: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.wdk-categories-list .wdk-categories .wdk-link {
+  display: flex;
+  align-items: center;
+  color: #777a7c;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+}
+.wdk-categories-list .wdk-categories .wdk-link .wdk-count {
+  text-align: right;
+  flex: 1 2 auto;
+}
+.wdk-categories-list .wdk-categories .wdk-link .wdk-count,
+.wdk-categories-list .wdk-categories .wdk-link .wdk-title,
+.wdk-categories-list .wdk-categories .wdk-link .wdk-count {
+  transition: all 0.4s ease-in-out;
+}
+.wdk-categories-list .wdk-categories .wdk-link:hover .wdk-title,
+.wdk-categories-list .wdk-categories .wdk-link:hover .wdk-count {
+  color: #0074e4;
+}
+.wdk-categories-list .wdk-categories .wdk-link:hover .wdk-title {
+  padding-left: 10px;
+}

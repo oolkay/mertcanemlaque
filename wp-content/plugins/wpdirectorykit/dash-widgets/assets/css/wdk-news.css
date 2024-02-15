@@ -1,0 +1,15 @@
+.wdk-dashwidget-element .wdk-news .date {
+  display: inline-block;
+  margin-right: 5px;
+  min-width: 150px;
+  color: #646970;
+}
+
+.wdk-dashwidget-element .wdk-news a {
+  text-decoration: none;
+}
+
+.wdk-dashwidget-element .wdk-news .footer {
+  padding-top: 12px;
+  text-align: right;
+}

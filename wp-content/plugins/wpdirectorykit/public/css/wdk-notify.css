@@ -1,0 +1,64 @@
+/* sw_log_notify */
+
+.wdk_log_notify-box {
+    position: fixed;
+    z-index: 9999999;
+    bottom: 10px;
+    right: 10px;
+}
+
+.wdk_log_notify {
+    position: relative;
+    background: #fffffff7;
+    padding: 12px 15px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0px 1px 0px 0.25px rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: 0px 0 3px 2px rgba(0, 0, 0, 0.08);
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background: #5cb811;
+    background: rgba(92, 184, 17, 0.9);
+    padding: 15px;
+    border-radius: 4px;
+    color: #fff;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 0 !important;
+}
+
+.wdk_log_notify.error {
+    margin: 0;
+    margin-bottom: 10px;
+    background: #cf2a0e;
+    padding: 12px 15px;
+}
+
+.wdk_log_notify.loading {
+    background: #5bc0de;
+}
+
+.wdk_log_notify {
+    display: block;
+    margin-top: 10px;
+    position: relative;
+    opacity: 0;
+    -webkit-transform: translateX(120%);
+    transform: translateX(120%);
+}
+
+.wdk_log_notify.show {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .wdk_log_notify-box {
+        bottom: 120px;
+    }
+}
+
+/* end wdk_log_notify */

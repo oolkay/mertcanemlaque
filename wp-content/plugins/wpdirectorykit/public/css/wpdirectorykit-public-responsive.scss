@@ -1,0 +1,192 @@
+@charset 'UTF-8';
+
+/*------------------------------------------------------------------
+[Media Stylesheet]
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Min width 992px and Max width: 1199px
+2. Max width: 1140px 
+3. Max width: 992px
+4. Max width: 992px and min width: 768px
+5. Max width: 767px
+6. Max width: 480px
+7. Custom media for IE
+
+-------------------------------------------------------------------*/
+@media (min-width: 1300px){
+
+}
+
+@media (max-width: 1270px) {
+}
+
+@media (min-width: 1140px) and (max-width: 1350px) {}
+
+@media (max-width: 1199px) {}
+
+/*------------------------------------------------------------------
+[1. Min width 992px and Max width: 1199px ]
+*/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/*------------------------------------------------------------------
+[2. Max width: 1140px ]
+*/
+@media (max-width: 1140px) {
+}
+
+/*------------------------------------------------------------------
+[3. Max width: 991px ]
+*/
+@media (max-width: 991px) {
+    body .wdk-element .wdk-row .wdk-col {
+        width: 50%;
+        -webkit-flex: 0 0 calc(100% / 2);
+        flex: 0 0 calc(100% / 2);
+    }
+    .wdk-element .wdk-search.layout_inline .wdk-field {
+        &.LOCATION,
+        &.CATEGORY {
+            width: 50%;
+        }
+    }
+}
+
+/*------------------------------------------------------------------
+[4. Max width: 992px and min width: 768px]
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/*------------------------------------------------------------------
+[5. Max width: 767px]
+*/
+@media (max-width: 767px) {
+    .jconfirm .jconfirm-box {
+        max-width: 100%;
+        width: calc(100% - 30px) !important;
+    }
+
+    .wdk-element .wdk-map .wdk-listing-card .wdk-thumbnail .wdk-image {
+        height: 110px;
+    }
+
+    body .wdk-element .wdk-row .wdk-col {
+        width: 100%; 
+        -webkit-flex: 0 0 calc(100% / 1);
+        flex: 0 0 calc(100% / 1);
+    }
+    .wdk-element .wdk-search.layout_inline .wdk-field {
+        &.LOCATION,
+        &.CATEGORY {
+            width: 100%;
+        }
+    }
+/*
+    .wdk-search #wdk-form-additional .wdk-row .wdk-col.CHECKBOX .wdk-field-label {
+        padding-left: 0;
+        padding: 3px 0;
+        margin-bottom: 10px;
+    }*/ 
+/*
+    .wdk-search.layout_inline #wdk-form-additional .wdk-field.CHECKBOX .wdk-field-label {
+        margin-top: 10px !important;
+    }*/
+
+    body .wdk-element .wdk-map .wdk-listing-card .wdk-subtitle-part span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2 !important; 
+        -webkit-box-orient: vertical;
+    }
+
+    body .wdk-element .wdk-map .infobox  {
+        width: 250px;
+    } 
+
+    .wdk-search.layout_inline .wdk-row div.wdk-col.SLIDER_RANGE  {
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .wdk-search.layout_inline .wdk-slider-range-field .irs--round {
+        margin-top: -1px;
+    }
+  
+    .wdk-search.layout_inline .irs--round.irs-with-grid {
+        height: 49px;
+    }
+
+    .wdk-listing-card.list .wdk-thumbnail {
+        max-width: 30%;
+    } 
+
+    .wdk-listing-card.list .wdk-content {
+        overflow: hidden;
+    }
+
+}
+
+/*------------------------------------------------------------------
+[6. Max width: 540px]
+*/
+
+@media (max-width:600px) {}
+
+/*------------------------------------------------------------------
+[6. Max width: 576px]
+*/
+
+@media (max-width:576px) {
+
+    .wdk-listings-list .listing-item {
+        justify-content: center;
+    }
+
+    body .wdk-listings-list .listing-item .listing-inf-sec {
+        flex: 0 0 auto;
+    }
+
+    .wdk-filter-head .filter-group.filter-status {
+        flex: 1 2;
+        order: 0;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .wdk-filter-head .filter-group.filter-status > span {
+        padding-left: 0;
+    }
+
+    .wdk-filter-head .filter-group.order,
+    .wdk-filter-head .filter-group.wmvc-view-type {
+        flex: 0 0;
+        order: 1;
+    }
+ 
+ }
+
+/*------------------------------------------------------------------
+[6. Max width: 540px]
+*/
+
+@media (max-width:540px) {}
+
+
+/*------------------------------------------------------------------
+[7. Custom media for IE]
+*/
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+}
+
+@media screen and (max-width:1140px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+}
+
+@media screen and (max-width:768px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+}

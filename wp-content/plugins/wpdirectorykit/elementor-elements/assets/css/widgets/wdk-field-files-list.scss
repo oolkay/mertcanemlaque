@@ -1,0 +1,136 @@
+.wdk-field-files-list {
+    .wdk-listing-image {
+        object-fit: cover;
+        object-position: center center;
+        width: 100%;
+        height: 200px;
+        max-width: 100%;
+        display: block;
+        overflow: hidden;
+    } 
+
+    .wdk-listing-image.auto_height {
+        object-fit: initial !important;
+        height: auto !important;
+    }
+
+    figure {
+        figcaption {
+            text-align: center;
+            color: #232425;
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+
+            &:hover {
+                color: #0074E4; 
+            }
+        }
+    }
+
+    .files-row {
+        ul.files,
+        ul.files li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        ul.files li:not(:last-child) {
+            margin-bottom: 5px;
+        }
+
+        .list-item a {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            color: #232425; 
+            .wdk-listing-file-icon {
+                max-height: 25px;
+                max-width: 25px;
+                display: inline-block;
+                margin-right: 5px;
+            }
+
+            &:hover {
+                color: #0074E4; 
+            }
+        }
+
+    }
+
+    &.wdk_js_gallery {
+
+        /* animation */
+
+        .wdk-listing-image-card {
+            position: relative;
+            cursor: pointer;
+            display: block;
+
+            .file.wdk-listing-image {
+                object-fit: contain !important;
+            }
+        }
+
+        .wdk-listing-image-card:before {
+            content: '';
+            opacity: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            position: absolute;
+            background: rgba(0, 0, 0, 0.65);
+            -webkit-transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
+            transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
+            -o-transition: transform .3s ease-out, opacity .3s ease-out;
+            transition: transform .3s ease-out, opacity .3s ease-out;
+            transition: transform .3s ease-out, opacity .3s ease-out, -webkit-transform .3s ease-out;
+            will-change: auto;
+            z-index: 1;
+        }
+
+        .wdk-listing-image-card:hover:before {
+            opacity: 1;
+            -webkit-transition: opacity .3s ease-in, -webkit-transform .3s ease-in;
+            transition: opacity .3s ease-in, -webkit-transform .3s ease-in;
+            -o-transition: transform .3s ease-in, opacity .3s ease-in;
+            transition: transform .3s ease-in, opacity .3s ease-in;
+            transition: transform .3s ease-in, opacity .3s ease-in, -webkit-transform .3s ease-in;
+        }
+
+        .wdk-listing-image-card:after {
+            content: '';
+            opacity: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            position: absolute;
+            background: url(../../../../public/img/plus.png) center center no-repeat;
+            -webkit-background-size: 50px 50px;
+            background-size: 50px 50px;
+            -webkit-transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
+            transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
+            -o-transition: transform .3s ease-out, opacity .3s ease-out;
+            transition: transform .3s ease-out, opacity .3s ease-out;
+            transition: transform .3s ease-out, opacity .3s ease-out, -webkit-transform .3s ease-out;
+            will-change: auto;
+            z-index: 2;
+        }
+
+        .wdk-listing-image-card:hover:after {
+            opacity: 1;
+            -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+            -webkit-transition: opacity .3s ease-in, -webkit-transform .3s ease-in;
+            transition: opacity .3s ease-in, -webkit-transform .3s ease-in;
+            -o-transition: transform .3s ease-in, opacity .3s ease-in;
+            transition: transform .3s ease-in, opacity .3s ease-in;
+            transition: transform .3s ease-in, opacity .3s ease-in, -webkit-transform .3s ease-in;
+        }
+    }
+}

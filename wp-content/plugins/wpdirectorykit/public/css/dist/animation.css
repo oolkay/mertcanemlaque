@@ -1,0 +1,5 @@
+/* animations */
+.wdk-listing-card .wdk-title .title,
+.wdk-listing-card .wdk-footer .wdk-btn a {
+  transition: all 0.15s;
+}

@@ -1,0 +1,255 @@
+.wdk-listing-related-listings-table {
+
+    .wdk-image {
+        max-width: 64px;
+        max-height: 64px;
+    }
+
+    .stars-lst {
+        display: inline-block;
+        padding-right: 1px;
+        span {
+            display: inline-block;
+            margin: 0;
+            margin-right: -2px;
+
+            i {
+                display: inline-block;
+                color: #f3b00f;
+                font-size: 13px;
+                
+                &.innactive {
+                    color: #aaa;
+                }
+            }
+
+            img {
+                display: inline-block;
+                margin: 0;
+                margin-right: -2px;
+                max-width: 15px;
+                max-height: 15px;
+            }
+        }
+    }
+
+    & {
+        --color_primary: #0074e4;
+        --color_primary_hover: #0052a2;
+        --color_link: #0052a2;
+        --color_link_hover: #161616;
+        --border_color: #cecece;
+        --border_width: 1px;
+        --border_radius: 1px;
+        --font_size_1: 16px;
+        --font_size_2: 14px;
+        --font_size_3: 13px;
+    }  
+
+    table.wdk-table {
+        & {
+            width: 100%;
+            max-width: 100%;
+        }
+    
+        &,
+        th,
+        td {
+            font-size: var(--font_size_3);
+        }
+    
+        th,
+        td {
+            padding: 8px 10px;
+            vertical-align: middle;
+            border: 0;
+            line-height: 19.5px;
+            text-align: left;
+
+            border: var(--border_width) solid var(--border_color);
+        }
+        
+        td b {
+            font-weight: 500;
+        }
+        
+        td:last-child {
+            text-align: center;
+        }
+    
+        td input {
+            display: inline-block;
+            width: 45px;
+            padding-left: 5px;
+            box-shadow: none;
+            outline: none;
+        }
+    
+        .wdk-btn {
+            border: 1px solid #979797;
+            padding: 10px 30px;
+            display: inline-block;
+            background-color: #fff;
+            color: #000;
+            font-size: 14px;
+        }
+
+        .wdk-btn:hover {
+            background: #ececec;
+        }
+    
+        thead td,
+        thead th {
+            vertical-align: bottom;
+            border-bottom: var(--border_width) solid #dee2e6;
+            background: var(--color_primary);
+            color: #fff;
+            font-weight: 500;
+            border-color: #0202022e;
+        }
+    
+        a {
+            color: var(--color_link);
+        }
+    
+        a:hover {
+            color: var(--color_link_hover);
+        }
+    
+        .row-actions {
+            margin-top: 5px;
+        }
+    
+        tbody> :nth-child(2n+2) { 
+            background-color: #f6f7f7;
+        }
+    
+        tfoot th,
+        tfoot td {
+            border-top: var(--border_width) solid var(--border_color);
+            border-bottom: none;
+        }
+    
+        thead th,
+        thead td {
+            border-bottom: var(--border_width) solid var(--border_color);
+        }
+    
+        strong {
+            font-weight: 500;
+        }
+
+        .v-vertical-m{
+            vertical-align: middle;
+        }
+        .text-center{
+            text-align: center;
+        }
+
+        tr:hover {
+            background-color: #eeeeee;
+        }
+
+        &.responsive {
+            @media(max-width:767px) {
+                & {
+                    border: 0;
+                }
+    
+                .hide-resonsive {
+                    display: none;
+                }
+    
+                caption {
+                    font-size: var(--font_size_1);
+                }
+    
+                thead {
+                    border: none;
+                    clip: rect(0 0 0 0);
+                    height: 1px;
+                    margin: -1px;
+                    overflow: hidden;
+                    padding: 0;
+                    position: absolute;
+                    width: 1px;
+                }
+    
+                tr {
+                    border: var(--border_width) solid var(--border_color);
+                    display: block;
+                    margin-bottom: 20px;
+                    box-shadow: 0px 0px 0px 0px #979797;
+                }
+    
+                td {
+                    border-top: 0;
+                    border-left: 0;
+                    border-right: 0;
+                    border-bottom: var(--border_width) solid var(--border_color);
+                    display: block;
+                    font-size: var(--font_size_2);
+                    text-align: right !important;
+                    min-height: 40px;
+                }
+    
+                td::before {
+                    /*
+                     * aria-label has no advantage, it won't be read inside a table
+                     content: attr(aria-label);
+                     */
+                    content: attr(data-label);
+                    float: left;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+    
+                td:last-child {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .fees {
+        margin-top: 15px;
+        ul,li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            font-size: 13px;
+            font-style: italic;
+            color: #0074e4;
+
+            .fee-title {
+                font-weight: 600;
+            }
+
+            &:not(:last-child){
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .wdk-booking {
+        display: inline-block;
+        margin-top: 15px;
+        color: #fff;
+        font-family: "Montserrat";
+        font-weight: 400;
+        background-color: #0074e4;
+        border: none;
+        border-radius: 3px;
+        padding: 13.5px 30px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all .15s;
+
+        &:hover {
+            background: #0052a2; 
+        }
+    }
+}

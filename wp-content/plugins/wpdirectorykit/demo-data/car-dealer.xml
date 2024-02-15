@@ -1,0 +1,1358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created with Liquid Studio (https://www.liquid-technologies.com)-->
+<root>
+    <fields>
+        <field>
+            <section>
+				SEO
+			</section>
+            <field_label>
+				Short Description
+			</field_label>
+            <field_type>
+				TEXTAREA
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required>
+				1
+			</is_required>
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>12</columns_number>
+            <order_index>1</order_index>
+        </field>
+        <field>
+            <section>
+				SEO
+			</section>
+            <field_label>
+				Keywords
+			</field_label>
+            <field_type>
+				INPUTBOX
+			</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>
+				12
+			</columns_number>
+            <order_index>2</order_index>
+        </field>
+        <field>
+            <section> Overview</section>
+            <field_label>Purpose</field_label>
+            <field_type>DROPDOWN</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list>,Sale,Rent</values_list>
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>3</order_index>
+        </field>
+        <field>
+            <section> Overview</section>
+            <field_label>Sale Price</field_label>
+            <field_type>NUMBER</field_type>
+            <prefix>$</prefix>
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>4</order_index>
+        </field>
+        <field>
+            <section> Overview</section>
+            <field_label>Rent Price</field_label>
+            <field_type>NUMBER</field_type>
+            <prefix>$</prefix>
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>5</order_index>
+        </field>
+        <field>
+            <section> Overview</section>
+            <field_label>Year</field_label>
+            <field_type>NUMBER</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>6</order_index>
+        </field>
+        <field>
+            <section> Overview</section>
+            <field_label>Model</field_label>
+            <field_type> INPUTBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>7</order_index>
+        </field>
+        <field>
+            <section>Overview</section>
+            <field_label>VIN Code</field_label>
+            <field_type>INPUTBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>8</order_index>
+        </field>
+        <field>
+            <section>Overview</section>
+            <field_label>Engine Power</field_label>
+            <field_type>NUMBER</field_type>
+            <prefix />
+            <suffix>Hp</suffix>
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>9</order_index>
+        </field>
+        <field>
+            <section> Overview</section>
+            <field_label>Fear Shifting</field_label>
+            <field_type>DROPDOWN</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list>Manual,Automatic</values_list>
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>10</order_index>
+        </field>
+        <field>
+            <section> Overview</section>
+            <field_label>Condition</field_label>
+            <field_type>DROPDOWN</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list>New,Used</values_list>
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>11</order_index>
+        </field>
+        <field>
+            <section> Overview</section>
+            <field_label>Color</field_label>
+            <field_type>INPUTBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>12</order_index>
+        </field>
+        <field>
+            <section> Overview</section>
+            <field_label>Length</field_label>
+            <field_type>NUMBER</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list>ft</values_list>
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>13</order_index>
+        </field>
+        <field>
+            <section> Overview</section>
+            <field_label>Miles</field_label>
+            <field_type>NUMBER</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list>miles</values_list>
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>14</order_index>
+        </field>
+        <field>
+            <section>Overview</section>
+            <field_label>Speed</field_label>
+            <field_type>NUMBER</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list>mph</values_list>
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>15</order_index>
+        </field>
+        <field>
+            <section>Location </section>
+            <field_label>Country</field_label>
+            <field_type>INPUTBOX </field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>16</order_index>
+        </field>
+        <field>
+            <section> Location</section>
+            <field_label>State/County</field_label>
+            <field_type> INPUTBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>17</order_index>
+        </field>
+        <field>
+            <section> Location</section>
+            <field_label>City</field_label>
+            <field_type> INPUTBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>18</order_index>
+        </field>
+        <field>
+            <section> Location</section>
+            <field_label>Area</field_label>
+            <field_type> INPUTBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>19</order_index>
+        </field>
+        <field>
+            <section> Location</section>
+            <field_label>Street</field_label>
+            <field_type> INPUTBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>20</order_index>
+        </field>
+        <field>
+            <section> Location</section>
+            <field_label>Street Num</field_label>
+            <field_type> INPUTBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>21</order_index>
+        </field>
+        <field>
+            <section> Location</section>
+            <field_label>Zip</field_label>
+            <field_type> INPUTBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>22</order_index>
+        </field>
+        <field>
+            <section>Interior Details </section>
+            <field_label>Heating</field_label>
+            <field_type>CHECKBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>23</order_index>
+        </field>
+        <field>
+            <section> Interior Details</section>
+            <field_label>Air Conditioning Automatic</field_label>
+            <field_type> CHECKBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>24</order_index>
+        </field>
+        <field>
+            <section> Interior Details</section>
+            <field_label>Air Conditioning Manual</field_label>
+            <field_type> CHECKBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>25</order_index>
+        </field>
+        <field>
+            <section> Interior Details</section>
+            <field_label>Navigation</field_label>
+            <field_type> CHECKBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>26</order_index>
+        </field>
+        <field>
+            <section> Interior Details</section>
+            <field_label>Video Player</field_label>
+            <field_type> CHECKBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>27</order_index>
+        </field>
+        <field>
+            <section> Interior Details</section>
+            <field_label>Isofix</field_label>
+            <field_type> CHECKBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>28</order_index>
+        </field>
+        <field>
+            <section> Interior Details</section>
+            <field_label>Parking Sensors Front</field_label>
+            <field_type> CHECKBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>29</order_index>
+        </field>
+        <field>
+            <section> Interior Details</section>
+            <field_label>Parking Sensors Rear</field_label>
+            <field_type> CHECKBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>30</order_index>
+        </field>
+        <field>
+            <section> Interior Details</section>
+            <field_label>LED Lights</field_label>
+            <field_type> CHECKBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>4</columns_number>
+            <order_index>31</order_index>
+        </field>
+        <field>
+            <section>Multimedia</section>
+            <field_label>Video URL</field_label>
+            <field_type>INPUTBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>6</columns_number>
+            <order_index>32</order_index>
+        </field>
+        <field>
+            <section>Multimedia</section>
+            <field_label>Virtual Tour URL</field_label>
+            <field_type>INPUTBOX</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>6</columns_number>
+            <order_index>33</order_index>
+        </field>
+        <field>
+            <section>Multimedia</section>
+            <field_label>Embed Video Code</field_label>
+            <field_type>TEXTAREA</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>12</columns_number>
+            <order_index>34</order_index>
+        </field>
+        <field>
+            <section>Multimedia</section>
+            <field_label>Embed Virtual Tour Code</field_label>
+            <field_type>TEXTAREA</field_type>
+            <prefix />
+            <suffix />
+            <hint />
+            <values_list />
+            <is_table_visible />
+            <is_visible_frontend />
+            <is_visible_dashboard />
+            <is_hardlocked />
+            <is_required />
+            <is_translatable />
+            <is_quickvisible />
+            <max_length />
+            <icon_id />
+            <columns_number>12</columns_number>
+            <order_index>35</order_index>
+        </field>
+    </fields>
+    <listings>
+        <listing>
+            <post_title>
+				BmT 5x
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Kalhamer Strasse 63
+			</address>
+            <lat>
+				49.688954878870305
+			</lat>
+            <lng>
+				18.179585417281604
+			</lng>
+            <is_featured />
+            <location_id>
+				25
+			</location_id>
+            <category_id>
+				1
+			</category_id>
+            <field_3>Garage,Cars</field_3>
+            <is_activated>1</is_activated>
+            <field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>35000</field_6>
+            <field_17>80</field_17>
+            <field_16>70</field_16>
+            <field_8>2010</field_8>
+            <field_11>2</field_11>
+            <field_12re>4</field_12re>
+            <field_13re>3</field_13re>
+            <field_14>Red</field_14>
+            <field_15>2</field_15>
+        </listing>
+        <listing>
+            <post_title>Folkswagen Jetta SEL</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Budapest 41459 Bogisich Cove
+			</address>
+            <lat>
+				47.4979937
+			</lat>
+            <lng>
+				19.0403594
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				1
+			</location_id>
+            <category_id>
+				1
+			</category_id>
+            <field_3>Hatchback,Best</field_3>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>125000</field_6>
+            <field_17>90</field_17>
+            <field_16>80</field_16>
+            <field_8>2015</field_8>
+            <field_11>1</field_11>
+            <field_12re>3</field_12re>
+            <field_13re>2</field_13re>
+            <field_14>Red</field_14>
+            <field_15>2</field_15>
+        </listing>
+        <listing>
+            <post_title>Coyota Land Cruiser</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Mattersburger Strasse 27
+			</address>
+            <lat>
+				48.2083537
+			</lat>
+            <lng>
+				16.3725042
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				7
+			</location_id>
+            <category_id>
+				1
+			</category_id>
+            <field_3>Hatchback,Top</field_3>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>75000</field_6>
+            <field_17>60</field_17>
+            <field_16>70</field_16>
+            <field_8>2016</field_8>
+            <field_11>1</field_11>
+            <field_12re>7</field_12re>
+            <field_13re>4</field_13re>
+            <field_14>Red-blue</field_14>
+            <field_15>1</field_15>
+        </listing>
+        <listing>
+            <post_title>Takoda Octavia</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Ul. Stare Gajnice 14, 10090
+			</address>
+            <lat>
+				45.8131847
+			</lat>
+            <lng>
+				15.9771774
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				18
+			</location_id>
+            <category_id>
+				2
+			</category_id>
+            <field_3>Coupe,Fast,Speed</field_3>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>380000</field_6>
+            <field_17>350</field_17>
+            <field_16>450</field_16>
+            <field_8>2016</field_8>
+            <field_11>15</field_11>
+            <field_12re>12</field_12re>
+            <field_13re>7</field_13re>
+            <field_14>Green</field_14>
+            <field_15>2</field_15>
+        </listing>
+        <listing>
+            <post_title>
+				Meadow View
+			</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				G.A. van Nispenstraat 167
+			</address>
+            <lat>
+				50.02185841773447
+			</lat>
+            <lng>
+				14.469632647962044
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				27
+			</location_id>
+            <category_id>
+				2
+			</category_id>
+            <field_3>Coupe,Fast,Speed</field_3>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>170000</field_6>
+            <field_17>200</field_17>
+            <field_16>450</field_16>
+            <field_8>2019</field_8>
+            <field_11>32</field_11>
+            <field_12re>8</field_12re>
+            <field_13re>4</field_13re>
+            <field_14>Black,yellow</field_14>
+            <field_15>3</field_15>
+        </listing>
+        <listing>
+            <post_title>Sonda Accord Executive</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Via Belviglieri 158
+			</address>
+            <lat>
+				46.86019101567027
+			</lat>
+            <lng>
+				13.270861441012647
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				1
+			</location_id>
+            <category_id>
+				3
+			</category_id>
+            <field_3>Minivan,Big,8x people</field_3>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>600000</field_6>
+            <field_17>200</field_17>
+            <field_16>11000</field_16>
+            <field_8>1950</field_8>
+            <field_11 />
+            <field_12re>0</field_12re>
+            <field_13re>0</field_13re>
+            <field_14>White</field_14>
+            <field_15>3</field_15>
+        </listing>
+        <listing>
+            <post_title>Folkswagen Passat</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Via Belviglieri 170
+			</address>
+            <lat>
+				47.08508535995386
+			</lat>
+            <lng>
+				13.095267071208847
+			</lng>
+            <is_featured>
+				1
+			</is_featured>
+            <location_id>
+				1
+			</location_id>
+            <category_id>
+				3
+			</category_id>
+            <field_3>Minivan,Big,8x people</field_3>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>480000</field_6>
+            <field_17>220</field_17>
+            <field_16>7000</field_16>
+            <field_8>1960</field_8>
+            <field_11>0</field_11>
+            <field_12re>0</field_12re>
+            <field_13re>0</field_13re>
+            <field_14>Green</field_14>
+            <field_15>3</field_15>
+        </listing>
+        <listing>
+            <post_title>
+Gagarin 4-room Apartment</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Pertholzer Strasse 47
+			</address>
+            <lat>
+				45.17041997262667
+			</lat>
+            <lng>
+				18.020509640558743
+			</lng>
+            <is_featured />
+            <location_id>
+				14
+			</location_id>
+            <category_id>
+				4
+			</category_id>
+            <field_3>Pickup,Food,Delivery</field_3>
+            <is_activated>
+				1
+			</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>170000</field_6>
+            <field_17>150</field_17>
+            <field_16>240</field_16>
+            <field_8>1985</field_8>
+            <field_11>18</field_11>
+            <field_12re>10</field_12re>
+            <field_13re>7</field_13re>
+            <field_14>Black</field_14>
+            <field_15>1</field_15>
+        </listing>
+        <listing>
+            <post_title>
+Hotel Otrada</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Franjevacki trg 7
+			</address>
+            <lat>
+				46.31089291474789
+			</lat>
+            <lng>
+				16.218666174635473
+			</lng>
+            <is_featured />
+            <location_id>
+				16
+			</location_id>
+            <category_id>
+				4
+			</category_id>
+            <field_3>Pickup,Food,Delivery</field_3>
+            <is_activated>1</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>230000</field_6>
+            <field_17>100</field_17>
+            <field_16>120</field_16>
+            <field_8>2005</field_8>
+            <field_11>18</field_11>
+            <field_12re>6</field_12re>
+            <field_13re>3</field_13re>
+            <field_14>Red</field_14>
+            <field_15>4</field_15>
+        </listing>
+        <listing>
+            <post_title>Zevrolet Epica </post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Antuna Kosića Rika 4a, 51000
+			</address>
+            <lat>
+				46.29476444388206
+			</lat>
+            <lng>
+				16.359314136950314
+			</lng>
+            <is_featured />
+            <location_id>
+				16
+			</location_id>
+            <category_id>
+				5
+			</category_id>
+            <field_3>Sedan</field_3>
+            <is_activated>1</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>980000</field_6>
+            <field_17>150</field_17>
+            <field_16>980</field_16>
+            <field_8>2007</field_8>
+            <field_11>4</field_11>
+            <field_12re>12</field_12re>
+            <field_13re>7</field_13re>
+            <field_14>Green</field_14>
+            <field_15>6</field_15>
+        </listing>
+        <listing>
+            <post_title>Otel Frontera</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Borovska 1, 35000
+			</address>
+            <lat>
+				45.805828539928356
+			</lat>
+            <lng>
+				15.913801409172878
+			</lng>
+            <is_featured />
+            <location_id>
+				18
+			</location_id>
+            <category_id>
+				5
+			</category_id>
+            <field_3>Sedan,Family</field_3>
+            <is_activated>1</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>710000</field_6>
+            <field_17>270</field_17>
+            <field_16>1600</field_16>
+            <field_8>2008</field_8>
+            <field_11>5</field_11>
+            <field_12re>34</field_12re>
+            <field_13re>2</field_13re>
+            <field_14>Orange</field_14>
+            <field_15>4</field_15>
+        </listing>
+        <listing>
+            <post_title>Gyundai Tucson</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Ledinski put 1, 10020
+			</address>
+            <lat>
+				46.92025531537454
+			</lat>
+            <lng>
+				15.480258035339432
+			</lng>
+            <is_featured />
+            <location_id>
+				2
+			</location_id>
+            <category_id>
+				6
+			</category_id>
+            <field_3>Motorcycle</field_3>
+            <is_activated>1</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>37000</field_6>
+            <field_17>60</field_17>
+            <field_16>45</field_16>
+            <field_8>2008</field_8>
+            <field_11>1</field_11>
+            <field_12re>1</field_12re>
+            <field_13re>0</field_13re>
+            <field_14>Blue</field_14>
+            <field_15>2</field_15>
+        </listing>
+        <listing>
+            <post_title>MotoBike</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Domaldova b.b., 21000
+			</address>
+            <lat>
+				48.12943437745315
+			</lat>
+            <lng>
+				16.23777739540031
+			</lng>
+            <is_featured />
+            <location_id>
+				7
+			</location_id>
+            <category_id>
+				6
+			</category_id>
+            <field_3>Motorcycle</field_3>
+            <is_activated>1</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>15000</field_6>
+            <field_17>75</field_17>
+            <field_16>42</field_16>
+            <field_8>2002</field_8>
+            <field_11>2</field_11>
+            <field_12re>3</field_12re>
+            <field_13re>0</field_13re>
+            <field_14>White</field_14>
+            <field_15>1</field_15>
+        </listing>
+        <listing>
+            <post_title>Tenault Scenic II</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Kelsenstrasse 43
+			</address>
+            <lat>
+				48.23199134320965
+			</lat>
+            <lng>
+				14.250661392921701
+			</lng>
+            <is_featured />
+            <location_id>
+				5
+			</location_id>
+            <category_id>
+				7
+			</category_id>
+            <field_3>Sport, Run</field_3>
+            <is_activated>1</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>32000</field_6>
+            <field_17>200</field_17>
+            <field_16>2100</field_16>
+            <field_8>1999</field_8>
+            <field_11>0</field_11>
+            <field_12re>0</field_12re>
+            <field_13re>0</field_13re>
+            <field_14>White</field_14>
+            <field_15>3</field_15>
+        </listing>
+        <listing>
+            <post_title>Thery Jaggi</post_title>
+            <post_content>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</post_content>
+            <address>
+				Spanheimerstrasse 36
+			</address>
+            <lat>
+				49.088257784724675
+			</lat>
+            <lng>
+				16.587696907008656
+			</lng>
+            <is_featured />
+            <location_id>
+				20
+			</location_id>
+            <category_id>
+				7
+			</category_id>
+            <field_3>Sport, Track</field_3>
+            <is_activated>1</is_activated>
+            <field_2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</field_2>
+            <field_6>48000</field_6>
+            <field_17>180</field_17>
+            <field_16>1850</field_16>
+            <field_8>2021</field_8>
+            <field_11>0</field_11>
+            <field_12re>0</field_12re>
+            <field_13re>0</field_13re>
+            <field_14>Green</field_14>
+            <field_15>4</field_15>
+        </listing>
+    </listings>
+    <categories>
+        <category>
+            <category_title>
+				Hatchback
+			</category_title>
+            <font_icon_code>fas fa-car-side</font_icon_code>
+            <image_id>car-dealer-category-image-1.jpg</image_id>
+            <icon_id>
+				real-estate-category-1.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Coupe
+			</category_title>
+            <font_icon_code>fas fa-car</font_icon_code>
+            <image_id>car-dealer-category-image-2.jpg</image_id>
+            <icon_id>
+				real-estate-category-2.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Minivan / Van
+			</category_title>
+            <font_icon_code>fas fa-truck</font_icon_code>
+            <image_id>car-dealer-category-image-3.jpg</image_id>
+            <icon_id>
+				real-estate-category-3.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Pickup Truck
+			</category_title>
+            <font_icon_code>fas fa-truck-pickup</font_icon_code>
+            <image_id>car-dealer-category-image-4.jpg</image_id>
+            <icon_id>
+				real-estate-category-4.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Sedan
+			</category_title>
+            <font_icon_code>fas fa-car-alt</font_icon_code>
+            <image_id>car-dealer-category-image-5.jpg</image_id>
+            <icon_id>
+				real-estate-category-7.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>Motorcycle</category_title>
+            <font_icon_code>fas fa-motorcycle</font_icon_code>
+            <image_id>car-dealer-category-image-6.jpg</image_id>
+            <icon_id>
+				real-estate-category-5.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Sport Utility
+			</category_title>
+            <font_icon_code>fas fa-tachometer-alt</font_icon_code>
+            <image_id>car-dealer-category-image-7.jpg</image_id>
+            <icon_id>
+				real-estate-category-6.png
+			</icon_id>
+            <code />
+        </category>
+        <category>
+            <category_title>
+				Wagon
+			</category_title>
+            <font_icon_code>fas fa-caravan</font_icon_code>
+            <image_id>car-dealer-category-image-8.jpg</image_id>
+            <icon_id>real-estate-category-1.png</icon_id>
+            <code />
+        </category>
+    </categories>
+    <search_form><![CDATA[[{"field_id":"search","class":"","query_type":"","columns":""},{"field_id":"loc","class":"","query_type":"","columns":""},{"field_id":"cat","class":"","query_type":"","columns":""},{"field_id":"6","class":"","query_type":"min_max","columns":""},{"field_id":"29","class":"","query_type":"","columns":""},{"field_id":"33","class":"","query_type":"","columns":""},{"field_id":"30","class":"","query_type":"","columns":""},{"field_id":"34","class":"","query_type":"","columns":""},{"field_id":"28","class":"","query_type":"","columns":""}]]]></search_form>
+    <resultitem><![CDATA[[[{"field_id":"location_id","class":"","columns":""}],[{"field_id":"5","class":"","columns":""}],[{"field_id":"post_title","class":"","columns":""}],[{"field_id":"2","class":"","columns":""}],[{"field_id":"8","class":"","columns":""},{"field_id":"13","class":"","columns":""},{"field_id":"14","class":"","columns":""}],[{"field_id":"6","class":"","columns":""}]]]]></resultitem>
+    <replace>
+        <text from="Listing" to="Car" />
+        <text from="Listings" to="Cars" />
+    </replace>
+</root>

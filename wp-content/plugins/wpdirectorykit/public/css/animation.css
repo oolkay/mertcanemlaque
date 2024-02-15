@@ -1,0 +1,7 @@
+/* animations */
+.wdk-listing-card .wdk-title .title,
+.wdk-listing-card .wdk-footer .wdk-btn a {
+  -webkit-transition: all .15s;
+  transition: all .15s;
+}
+/*# sourceMappingURL=animation.css.map */

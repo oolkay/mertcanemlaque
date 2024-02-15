@@ -1,0 +1,95 @@
+.wdk-element .slick-slider {
+  direction: initial;
+}
+
+.wdk-element .wdk-listing-card .wdk_js_gallery_slider_box .wdk_js_gallery_slider .slick-list {
+  direction: ltr;
+}
+
+.wdk-element .slick-slide {
+  float: left !important;
+}
+
+.wdk-element .wdk_dropdown_tree .list_scroll ul li,
+.wdk-element .wdk-listing-card .wdk-footer .wdk-left,
+.wdk-element .wdk_dropdown_tree button:first-child,
+.wdk-element .wdk-listing-card .wdk-features-part,
+.wdk-element .wdk-listing-card .wdk-footerl,
+.wdk-element .wdk-listing-card .wdk-title,
+.wdk-element .wdk-listing-card .wdk-thumbnail,
+.wdk-element .wdk-listing-card .wdk-subtitle-part {
+  text-align: right;
+}
+
+.wdk-element .marker-cluster div {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.wdk-element .wdk-categories-list .wdk-categories .wdk-link i {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.wdk-element a[href^="tel"] {
+  direction: ltr;
+}
+
+.wdk-element .wdk-listing-card .wdk-thumbnail .wdk-over-image-bottom .wdk-compare-listing-button-actions,
+.wdk-element .wdk-listing-card .wdk-thumbnail .wdk-over-image-bottom .wdk-favorites-actions {
+  float: left;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+footer .elementor-widget-container,
+footer .elementor-container {
+  text-align: right;
+}
+
+body .wdk_dropdown_tree button.btn.btn-default.dropdown-toggle {
+  margin-left: 0;
+}
+
+body .elementor-widget.elementor-element.wdk-nexpoperty-lisitng-preview-contact-title > .elementor-widget-container {
+  padding: 5px 105px 18px 0;
+}
+
+body .elementor-widget.elementor-element.wdk-nexpoperty-lisitng-preview-contact-ul > .elementor-widget-container {
+  padding: 0px 105px 0px 0px;
+}
+
+body .wdk-listing-slider .banner-thumbs-con .banner-thumbs .slick-track {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+body .wdk-membership-element .wdk-membership-menu .wdk-membership-add-btn svg,
+body .wdk-membership-element .wdk-membership-menu .wdk-membership-add-btn i,
+body .wdk-membership-element .wdk-membership-menu .wdkm-btn span.dashicons,
+body .wdk-membership-element .wdk-membership-menu .wdkm-btn i {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+body .wdk-membership-element .wdk-membership-menu .wdkm-btn {
+  text-align: right;
+}
+
+/*------------------------------------------------------------------
+[5. Max width: 767px]
+*/
+@media (max-width: 767px) {
+  footer .elementor-widget-container,
+footer .elementor-container {
+    text-align: center;
+  }
+  footer ul li a,
+.sidebar ul li.cat-item a {
+    padding-right: 20px;
+  }
+}
+
+/*------------------------------------------------------------------
+[6. Max width: 576px]
+*/

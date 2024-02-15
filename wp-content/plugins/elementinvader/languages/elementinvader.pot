@@ -1,0 +1,548 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Element Invader - Elementor Template Kits Library\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-20 17:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.2\n"
+"X-Domain: elementinvader"
+
+#: application/views/elementinvader/index.php:35
+msgid " Design Templates found"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:71
+msgid "1 (Not satisfied)"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:75
+msgid "5 (Very satisfied)"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:79
+#: application/views/elementinvader/install_plugins_all.php:84
+msgid "Activating: "
+msgstr ""
+
+#: application/views/elementinvader/index.php:61
+#: application/views/elementinvader_marketplace/index.php:234
+msgid "Add Page"
+msgstr ""
+
+#: application/views/elementinvader/index.php:265
+#: application/views/elementinvader/install_plugins.php:140
+#: application/views/elementinvader_marketplace/index.php:650
+msgid "Add this page"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins_all.php:69
+msgid "All plugins already activated"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:280
+msgid "Allow only this specific admins to see logs"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:63
+msgid "Become Author"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:37
+msgid "Contact Form"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:199
+#: admin/class-elementinvader-admin.php:200
+#: admin/class-elementinvader-admin.php:222
+#: admin/class-elementinvader-admin.php:223
+msgid "Contact Us"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:62
+msgid "Custom Work"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:483
+#: application/views/elementinvader/export_zip.php:55
+msgid "Description"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:293
+msgid "Disable hints"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:182
+#: admin/class-elementinvader-admin.php:205
+msgid "Element Invader"
+msgstr ""
+
+#. Name of the plugin
+msgid "Element Invader - Elementor Template Kits Library"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:182
+#: admin/class-elementinvader-admin.php:205
+#: admin/class-elementinvader-admin.php:255
+msgid "Element Invader Settings"
+msgstr ""
+
+#. Author of the plugin
+msgid "ElementInvader"
+msgstr ""
+
+#. URI of the plugin
+msgid "elementinvader"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"ElementInvader offers premium library of one click ready and free Elementor "
+"templates from https://elementinvader.com/ service."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "elementinvader.com"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:286
+msgid "Enable ElementInvader Layout in complete dash"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:241
+msgid "Error:"
+msgstr ""
+
+#: application/views/elementinvader/export_zip.php:88
+msgid "Export"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:155
+msgid "Export for ElementInvader"
+msgstr ""
+
+#: application/views/elementinvader/export_zip.php:21
+msgid "Export Template"
+msgstr ""
+
+#: application/views/elementinvader_marketplace/index.php:37
+msgid "Find Design"
+msgstr ""
+
+#: application/views/elementinvader/index.php:22
+#: application/views/elementinvader/install_plugins.php:6
+#: application/views/elementinvader/install_plugins_all.php:6
+#: application/views/elementinvader_contact/index.php:23
+#: application/views/elementinvader_marketplace/index.php:23
+msgid "From Theme"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:49
+msgid "Full Name"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:264
+msgid "General Section"
+msgstr ""
+
+#: application/views/elementinvader/export_zip.php:26
+#: application/views/elementinvader_contact/index.php:42
+msgid "If you have General question please join our Facebook Community"
+msgstr ""
+
+#: application/views/elementinvader/index.php:287
+#: application/views/elementinvader/install_plugins_all.php:160
+msgid "Import All Pages"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:346
+msgid "Import failed, json error, please report issue here"
+msgstr ""
+
+#: application/views/elementinvader_marketplace/index.php:624
+msgid "Import template"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:61
+msgid "Issue"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:13
+#: application/views/elementinvader/install_plugins_all.php:13
+#: application/views/elementinvader_contact/index.php:31
+msgid "Join Our Community on Facebook"
+msgstr ""
+
+#: application/views/elementinvader_marketplace/index.php:642
+msgid "License Key"
+msgstr ""
+
+#: application/views/elementinvader_marketplace/index.php:644
+msgid "License key"
+msgstr ""
+
+#: application/views/elementinvader_marketplace/index.php:294
+msgid ""
+"License key is required for this template, you can purchase one on link below"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:85
+msgid "Link, id, title"
+msgstr ""
+
+#: application/models/Control_m.php:25 application/models/Log_m.php:25
+msgid "Listing"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:270
+msgid "Logging Level"
+msgstr ""
+
+#: application/models/Report_m.php:184
+msgid "Mail sending FAILED"
+msgstr ""
+
+#: application/models/Report_m.php:189
+msgid "Mail sending format Method not exists"
+msgstr ""
+
+#: application/models/Report_m.php:180
+msgid "Mail sent successfuly to"
+msgstr ""
+
+#: application/views/elementinvader/export_zip.php:66
+msgid "Make nice screenshot image with width 1280px"
+msgstr ""
+
+#: application/views/elementinvader/export_zip.php:61
+msgid "Make nice screenshot image with width 640px"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:287
+msgid "Make your WordPress Admin dashboard nicer"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:96
+msgid "Message"
+msgstr ""
+
+#: application/helpers/Basic.php:244
+msgid "Missing image"
+msgstr ""
+
+#: application/helpers/Basic.php:248
+msgid "Missing images file you can add into zip manually, inside images folder"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:50
+msgid "Name Surname"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:59
+#: application/views/elementinvader_contact/index.php:70
+msgid "Not Selected"
+msgstr ""
+
+#: application/views/elementinvader/index.php:29
+msgid "One Click and Import All Templates"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:279
+msgid "Only this admins allowed"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:64
+msgid "Other"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:194
+#: admin/class-elementinvader-admin.php:195
+#: admin/class-elementinvader-admin.php:212
+#: admin/class-elementinvader-admin.php:213
+#: application/views/elementinvader/index.php:23
+#: application/views/elementinvader/install_plugins.php:7
+#: application/views/elementinvader/install_plugins_all.php:7
+#: application/views/elementinvader_contact/index.php:24
+#: application/views/elementinvader_marketplace/index.php:25
+msgid "Other Layouts"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:341
+#: application/controllers/Elementinvader.php:405
+msgid "Page created, click and open in Elementor"
+msgstr ""
+
+#: application/views/elementinvader/export_zip.php:52
+msgid "Page Tags"
+msgstr ""
+
+#: application/views/elementinvader/export_zip.php:39
+#: application/views/elementinvader/export_zip.php:47
+#: application/views/elementinvader/export_zip.php:48
+#: application/views/elementinvader/index.php:258
+#: application/views/elementinvader/index.php:260
+#: application/views/elementinvader/install_plugins.php:133
+#: application/views/elementinvader/install_plugins.php:135
+#: application/views/elementinvader_marketplace/index.php:636
+#: application/views/elementinvader_marketplace/index.php:638
+msgid "Page Title"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:478
+msgid "Page title"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:160
+msgid "Pages imported, click and open pages"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:88
+msgid "PHP version"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:90
+#: application/views/elementinvader/install_plugins_all.php:95
+msgid ""
+"Please click here to  install required plugin, then you can import template"
+msgstr ""
+
+#: application/views/elementinvader/index.php:161
+#: application/views/elementinvader/install_plugins.php:269
+#: application/views/elementinvader_marketplace/index.php:280
+#: application/views/elementinvader_marketplace/index.php:286
+msgid "Please enter Page Title"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:202
+#: application/views/elementinvader/install_plugins.php:220
+msgid "Please follow step by step"
+msgstr ""
+
+#: application/views/elementinvader/index.php:154
+#: application/views/elementinvader/install_plugins.php:198
+#: application/views/elementinvader/install_plugins.php:217
+#: application/views/elementinvader/install_plugins.php:260
+#: application/views/elementinvader_marketplace/index.php:273
+msgid "Please wait"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:83
+#: application/views/elementinvader/install_plugins_all.php:88
+msgid "Plugin ACTIVATED"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:96
+#: application/views/elementinvader/install_plugins_all.php:100
+msgid "Plugin already activated:"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:78
+#: application/views/elementinvader/install_plugins_all.php:83
+msgid "Plugin found in your WordPress: "
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:239
+#: application/views/elementinvader/install_plugins_all.php:207
+msgid "Plugin installed successfuly:"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:88
+#: application/views/elementinvader/install_plugins_all.php:93
+msgid "Plugin NOT found in your WordPress: "
+msgstr ""
+
+#: application/controllers/Elementinvader.php:493
+msgid "Plugins"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:19
+#: application/views/elementinvader/install_plugins_all.php:19
+msgid "Plugins installation"
+msgstr ""
+
+#: application/views/elementinvader_marketplace/index.php:24
+msgid "Premium"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:57
+msgid "Question Category"
+msgstr ""
+
+#: application/models/Report_m.php:166
+msgid "Report log"
+msgstr ""
+
+#: application/models/Report_m.php:167
+msgid "Report log attached in file"
+msgstr ""
+
+#: application/views/elementinvader/export_zip.php:70
+msgid "Required plugins"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:97
+#: application/controllers/Elementinvader.php:291
+msgid "Required plugins missing, click here to install"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:111
+#: application/views/elementinvader/install_plugins_all.php:136
+msgid ""
+"Required plugins not installed or activated, please above install it and "
+"then click here to recheck"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:68
+msgid "Satisfication with plugin"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:498
+msgid "Screenshoot"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:503
+msgid "Screenshoot Large"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:509
+msgid "Screenshoot Large Size should have width 1280px"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:508
+msgid "Screenshoot Size should have width 640px"
+msgstr ""
+
+#: application/views/elementinvader/export_zip.php:59
+#: application/views/elementinvader/index.php:55
+#: application/views/elementinvader/install_plugins.php:156
+#: application/views/elementinvader/install_plugins.php:158
+#: application/views/elementinvader_marketplace/index.php:223
+msgid "Screenshot"
+msgstr ""
+
+#: application/views/elementinvader/export_zip.php:64
+msgid "Screenshot large"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:99
+msgid "Send"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:256
+msgid "Settings "
+msgstr ""
+
+#: application/views/elementinvader/install_plugins.php:74
+#: application/views/elementinvader/install_plugins_all.php:79
+msgid "Start activating plugin:"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:79
+msgid "Subject"
+msgstr ""
+
+#: application/views/elementinvader/index.php:247
+#: application/views/elementinvader/install_plugins.php:122
+#: application/views/elementinvader_marketplace/index.php:626
+msgid "Submit failed, please populate all fields!"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:60
+msgid "Suggestion"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:488
+#: application/views/elementinvader/export_zip.php:51
+msgid "Tags"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:564
+msgid "Teg1, Tag2, Tag3"
+msgstr ""
+
+#: application/views/elementinvader/index.php:252
+#: application/views/elementinvader/index.php:254
+#: application/views/elementinvader/install_plugins.php:127
+#: application/views/elementinvader/install_plugins.php:129
+#: application/views/elementinvader_marketplace/index.php:630
+#: application/views/elementinvader_marketplace/index.php:632
+msgid "Template"
+msgstr ""
+
+#: application/controllers/Elementinvader.php:473
+#: application/views/elementinvader/export_zip.php:43
+#: application/views/elementinvader/export_zip.php:44
+msgid "Template Name"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:84
+msgid "Template related"
+msgstr ""
+
+#: application/views/elementinvader/index.php:44
+#: application/views/elementinvader/index.php:275
+msgid ""
+"Templates not found in your theme, check in Other Layouts tab or suggest one "
+"here and we will consider to build it"
+msgstr ""
+
+#: application/views/elementinvader/install_plugins_all.php:148
+msgid ""
+"Templates not found in your theme, check in other Layouts tab or suggest one "
+"here and we will consider to build it"
+msgstr ""
+
+#: application/views/elementinvader_marketplace/index.php:201
+msgid ""
+"Templates not found, please suggest one here and we will consider to build it"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:189
+#: admin/class-elementinvader-admin.php:190
+#: admin/class-elementinvader-admin.php:217
+#: admin/class-elementinvader-admin.php:218
+msgid "Theme Layouts"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:265
+msgid "These are general settings"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:271
+msgid "These are Logging Level Settings"
+msgstr ""
+
+#: application/views/elementinvader/index.php:278
+#: application/views/elementinvader/install_plugins_all.php:151
+msgid ""
+"This pages will be Created, or updated if already exists in Element Invader "
+"Menu:"
+msgstr ""
+
+#: application/views/elementinvader_marketplace/index.php:248
+msgid "We still working on this feature"
+msgstr ""
+
+#: application/views/elementinvader_marketplace/index.php:35
+msgid "What you need?"
+msgstr ""
+
+#: admin/class-elementinvader-admin.php:294
+msgid "Will hide questions and video guides in dashboard"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:92
+msgid "WP version"
+msgstr ""
+
+#: application/views/elementinvader_contact/index.php:53
+msgid "Your Email"
+msgstr ""

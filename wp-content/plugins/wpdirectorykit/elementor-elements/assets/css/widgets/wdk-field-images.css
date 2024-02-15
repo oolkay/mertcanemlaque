@@ -1,0 +1,83 @@
+.wdk-field-images .wdk-listing-image {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 180px;
+  max-width: 100%;
+  display: block;
+}
+
+.wdk-field-images .wdk-listing-image.auto_height {
+  object-fit: initial !important;
+  height: auto !important;
+}
+
+.wdk-field-images.wdk_js_gallery {
+  /* animation */
+}
+
+.wdk-field-images.wdk_js_gallery .wdk-listing-image-card {
+  position: relative;
+  cursor: pointer;
+  display: block;
+}
+
+.wdk-field-images.wdk_js_gallery .wdk-listing-image-card:before {
+  content: '';
+  opacity: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.35);
+  -webkit-transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
+  transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
+  -o-transition: transform .3s ease-out, opacity .3s ease-out;
+  transition: transform .3s ease-out, opacity .3s ease-out;
+  transition: transform .3s ease-out, opacity .3s ease-out, -webkit-transform .3s ease-out;
+  will-change: auto;
+  z-index: 1;
+}
+
+.wdk-field-images.wdk_js_gallery .wdk-listing-image-card:hover:before {
+  opacity: 1;
+  -webkit-transition: opacity .3s ease-in, -webkit-transform .3s ease-in;
+  transition: opacity .3s ease-in, -webkit-transform .3s ease-in;
+  -o-transition: transform .3s ease-in, opacity .3s ease-in;
+  transition: transform .3s ease-in, opacity .3s ease-in;
+  transition: transform .3s ease-in, opacity .3s ease-in, -webkit-transform .3s ease-in;
+}
+
+.wdk-field-images.wdk_js_gallery .wdk-listing-image-card:after {
+  display: none;
+  content: '';
+  opacity: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background: url(../../../../public/img/plus.png) center center no-repeat;
+  -webkit-background-size: 50px 50px;
+  background-size: 50px 50px;
+  -webkit-transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
+  transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
+  -o-transition: transform .3s ease-out, opacity .3s ease-out;
+  transition: transform .3s ease-out, opacity .3s ease-out;
+  transition: transform .3s ease-out, opacity .3s ease-out, -webkit-transform .3s ease-out;
+  will-change: auto;
+  z-index: 2;
+}
+
+.wdk-field-images.wdk_js_gallery .wdk-listing-image-card:hover:after {
+  opacity: 1;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transition: opacity .3s ease-in, -webkit-transform .3s ease-in;
+  transition: opacity .3s ease-in, -webkit-transform .3s ease-in;
+  -o-transition: transform .3s ease-in, opacity .3s ease-in;
+  transition: transform .3s ease-in, opacity .3s ease-in;
+  transition: transform .3s ease-in, opacity .3s ease-in, -webkit-transform .3s ease-in;
+}

@@ -1,0 +1,152 @@
+.wdk-locations-tree .wdk-row {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  margin-bottom: -15px;
+}
+
+.wdk-locations-tree .wdk-row .wdk-col {
+  margin-bottom: 15px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 calc(100% / 3);
+  -ms-flex: 0 0 calc(100% / 3);
+  flex: 0 0 calc(100% / 3);
+  flex: 0 0 calc(100% / 13);
+  padding: 0 15px;
+}
+
+.wdk-locations-tree .wdk-row .wdk-col.wdk-col-full {
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.wdk-locations-tree .wdk-row .wdk-col.wdk-col-full-always {
+  -webkit-flex: 0 0 100% !important;
+  -ms-flex: 0 0 100% !important;
+  flex: 0 0 100% !important;
+  flex: 0 0 100% !important;
+  width: 100% !important;
+}
+
+.wdk-locations-tree .title {
+  font-size: 18px;
+  color: #232425;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wdk-locations-tree .title img {
+  margin-right: 10px;
+}
+
+.wdk-locations-tree .title.image_top {
+  flex-direction: column;
+}
+
+.wdk-locations-tree .title.image_top img {
+  margin-right: 0;
+}
+
+.wdk-locations-tree .title:hover {
+  color: #0074e4;
+}
+
+.wdk-locations-tree .title a {
+  font-size: inherit;
+  color: inherit;
+}
+
+.wdk-locations-tree .title .wdk-font-icon {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #eee;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.wdk-locations-tree .title a.wdk-d-block {
+  display: block;
+  font-size: 0;
+  width: 100%;
+}
+
+.wdk-locations-tree .title img.wdk-image {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.wdk-locations-tree .title img.wdk-icon {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.wdk-locations-tree .wdk-locations .wdk-item, .wdk-locations-tree .wdk-locations {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.wdk-locations-tree .wdk-locations .wdk-item:last-child {
+  margin-bottom: 0 !important;
+}
+
+.wdk-locations-tree .wdk-locations .wdk-item {
+  margin-bottom: 10px;
+}
+
+.wdk-locations-tree .wdk-locations .wdk-link i {
+  margin-right: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.wdk-locations-tree .wdk-locations .wdk-link {
+  display: flex;
+  align-items: center;
+  color: #777a7c;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+}
+
+.wdk-locations-tree .wdk-locations .wdk-link .wdk-count {
+  text-align: right;
+  flex: 1 2 auto;
+}
+
+.wdk-locations-tree .wdk-locations .wdk-link .wdk-count,
+.wdk-locations-tree .wdk-locations .wdk-link .wdk-title,
+.wdk-locations-tree .wdk-locations .wdk-link .wdk-count {
+  transition: all 0.4s ease-in-out;
+}
+
+.wdk-locations-tree .wdk-locations .wdk-link:hover .wdk-title,
+.wdk-locations-tree .wdk-locations .wdk-link:hover .wdk-count {
+  color: #0074e4;
+}
+
+.wdk-locations-tree .wdk-locations .wdk-link:hover .wdk-title {
+  padding-left: 10px;
+}
+
+.wdk-locations-tree .wdk-locations .wdk-icon {
+  max-width: 15px;
+  max-height: 15px;
+  margin-right: 5px;
+}

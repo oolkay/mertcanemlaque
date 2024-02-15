@@ -1,0 +1,359 @@
+@charset "UTF-8";
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/* General */
+.wdk-wrap .postbox-header h3 {
+  padding-left: 15px;
+  margin: 1em 0;
+  color: #1d2327;
+  font-size: 1.3em;
+}
+
+.wdk-wrap .pull_right {
+  float: right;
+}
+
+.wdk-wrap .hidden {
+  display: none;
+}
+
+.wdk-wrap .img-link {
+  display: block;
+}
+
+/* Sortable */
+.wdk-wrap .ui-sortable-handle a {
+  text-decoration: none;
+  border: 0px;
+  color: black;
+}
+
+.wdk-wrap .ui-sortable-handle a:hover {
+  color: #135e96;
+}
+
+.wdk-wrap .ui-sortable-handle h3 a {
+  font-size: 16px;
+}
+
+.wdk-wrap .ui-sortable-handle h3 span {
+  padding-right: 15px;
+}
+
+.wdk-wrap .hndle {
+  display: block;
+}
+
+.wdk-wrap .listing_edit_map {
+  height: 350px;
+  width: 100%;
+}
+
+/* Alerts */
+.wdk-wrap .alert.alert-success {
+  background: #E6F4E7;
+  color: #376637;
+  border-left: 3px solid #88BF88;
+  margin: 0px 0px 5px 0px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.wdk-wrap .alert.alert-danger {
+  background: #FFE6DF;
+  color: #AB3C1B;
+  border-left: 3px solid #E98B6F;
+  margin: 0px 0px 5px 0px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.wdk-wrap .alert.alert-info {
+  background: #cce5ff;
+  color: #3d648e;
+  border-left: 3px solid #3d648e;
+  margin: 0px 0px 5px 0px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+/* Custom fields layout */
+div.wdk-field-edit {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.wdk-field-edit label {
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 80px;
+  flex: 0 0 100px;
+}
+
+div.wdk-field-edit div.wdk-field-container {
+  display: inline-block;
+  padding: 0px 15px;
+  flex: 1 2 auto;
+}
+
+div.wdk-field-edit div.wdk-field-container input,
+div.wdk-field-edit div.wdk-field-container select {
+  width: 100%;
+  max-width: 230px;
+}
+
+div.wdk-field-edit p.wdk-hint {
+  font-style: italic;
+}
+
+/* Tables */
+.wdk-wrap .widefat .actions_column {
+  text-align: right;
+}
+
+.wdk-wrap .form-table td {
+  vertical-align: top;
+}
+
+.wdk-wrap .wdk-side-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10px;
+}
+
+.wdk-wrap .wdk-side-content .wdk-col {
+  flex: 1 2 auto;
+}
+
+.wdk-wrap .wdk-side-content .wdk-col.main {
+  flex: 1 2 50%;
+}
+
+.wdk-wrap .wdk-side-content .wdk-col.sidebar {
+  flex: 1 2 30%;
+  min-width: 400px;
+  padding: 22px 10px;
+}
+
+/* Filtering above/below tables */
+.wdk-wrap .tablenav.top .left {
+  float: left;
+}
+
+.wdk-wrap .inputbox_map {
+  height: 250px;
+  width: 100%;
+  max-width: 450px;
+}
+
+/* Visual Builder Search Forms */
+.wdk-builder-container {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.wdk-builder-elements {
+  width: 20%;
+  min-height: 200px;
+  float: left;
+  box-sizing: border-box;
+  padding: 15px 15px 15px 0px;
+}
+
+.wdk-builder-selected {
+  margin-top: 15px;
+  width: 80%;
+  border: 1px solid #c3c4c7;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  min-height: 400px;
+  float: left;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+#wdk-drop .widget.ui-draggable.ui-sortable-handle,
+#wdk-drop .ui-sortable-placeholder.widget-placeholder,
+.wdk-wrap .drop-container .widget.ui-draggable.ui-sortable-handle,
+.wdk-wrap .drop-container .ui-sortable-placeholder.widget-placeholder {
+  width: 300px;
+  margin: 0px 15px 15px 0px;
+  float: left;
+}
+
+#wdk-drag .widget-action,
+#wdk-drag .widget-inside {
+  display: none !important;
+}
+
+.wdk-builder-container button[aria-expanded=true] .toggle-indicator::before {
+  content: "";
+}
+
+#wdk-drop .widget-inside,
+.wdk-wrap .drop-container .widget-inside {
+  padding: 5px;
+}
+
+/* Visual Builder result item */
+.wdk-wrap .drop-container {
+  width: 80%;
+  float: left;
+}
+
+.wdk-wrap .drop-container .wdk-builder-selected {
+  width: 100%;
+  min-height: 100px;
+}
+
+.wdk-wrap .drop-container > h3 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* columns */
+.wdk-wrap .wdk-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.wdk-wrap .wdk-row > [class*=wdk-col] {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.wdk-wrap .wdk-row .wdk-col-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+.wdk-wrap .wdk-row .wdk-col-1 {
+  -webkit-flex: 0 0 calc(100% / 12 * 1);
+  flex: 0 0 calc(100% / 12 * 1);
+  max-width: calc(100% / 12 * 1);
+}
+.wdk-wrap .wdk-row .wdk-col-2 {
+  -webkit-flex: 0 0 calc(100% / 12 * 2);
+  flex: 0 0 calc(100% / 12 * 2);
+  max-width: calc(100% / 12 * 2);
+}
+.wdk-wrap .wdk-row .wdk-col-3 {
+  -webkit-flex: 0 0 calc(100% / 12 * 3);
+  flex: 0 0 calc(100% / 12 * 3);
+  max-width: calc(100% / 12 * 3);
+}
+.wdk-wrap .wdk-row .wdk-col-4 {
+  -webkit-flex: 0 0 calc(100% / 12 * 4);
+  flex: 0 0 calc(100% / 12 * 4);
+  max-width: calc(100% / 12 * 4);
+}
+.wdk-wrap .wdk-row .wdk-col-5 {
+  -webkit-flex: 0 0 calc(100% / 12 * 5);
+  flex: 0 0 calc(100% / 12 * 5);
+  max-width: calc(100% / 12 * 5);
+}
+.wdk-wrap .wdk-row .wdk-col-6 {
+  -webkit-flex: 0 0 calc(100% / 12 * 6);
+  flex: 0 0 calc(100% / 12 * 6);
+  max-width: calc(100% / 12 * 6);
+}
+.wdk-wrap .wdk-row .wdk-col-7 {
+  -webkit-flex: 0 0 calc(100% / 12 * 7);
+  flex: 0 0 calc(100% / 12 * 7);
+  max-width: calc(100% / 12 * 7);
+}
+.wdk-wrap .wdk-row .wdk-col-8 {
+  -webkit-flex: 0 0 calc(100% / 12 * 8);
+  flex: 0 0 calc(100% / 12 * 8);
+  max-width: calc(100% / 12 * 8);
+}
+.wdk-wrap .wdk-row .wdk-col-9 {
+  -webkit-flex: 0 0 calc(100% / 12 * 9);
+  flex: 0 0 calc(100% / 12 * 9);
+  max-width: calc(100% / 12 * 9);
+}
+.wdk-wrap .wdk-row .wdk-col-10 {
+  -webkit-flex: 0 0 calc(100% / 12 * 10);
+  flex: 0 0 calc(100% / 12 * 10);
+  max-width: calc(100% / 12 * 10);
+}
+.wdk-wrap .wdk-row .wdk-col-11 {
+  -webkit-flex: 0 0 calc(100% / 12 * 11);
+  flex: 0 0 calc(100% / 12 * 11);
+  max-width: calc(100% / 12 * 11);
+}
+.wdk-wrap .wdk-row .wdk-col-12 {
+  -webkit-flex: 0 0 calc(100% / 12 * 12);
+  flex: 0 0 calc(100% / 12 * 12);
+  max-width: calc(100% / 12 * 12);
+}
+@media (min-width: 992px) {
+  .wdk-wrap .wdk-row .wdk-col-md-1 {
+    -webkit-flex: 0 0 calc(100% / 12 * 1);
+    flex: 0 0 calc(100% / 12 * 1);
+    max-width: calc(100% / 12 * 1);
+  }
+  .wdk-wrap .wdk-row .wdk-col-md-2 {
+    -webkit-flex: 0 0 calc(100% / 12 * 2);
+    flex: 0 0 calc(100% / 12 * 2);
+    max-width: calc(100% / 12 * 2);
+  }
+  .wdk-wrap .wdk-row .wdk-col-md-3 {
+    -webkit-flex: 0 0 calc(100% / 12 * 3);
+    flex: 0 0 calc(100% / 12 * 3);
+    max-width: calc(100% / 12 * 3);
+  }
+  .wdk-wrap .wdk-row .wdk-col-md-4 {
+    -webkit-flex: 0 0 calc(100% / 12 * 4);
+    flex: 0 0 calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
+  }
+  .wdk-wrap .wdk-row .wdk-col-md-5 {
+    -webkit-flex: 0 0 calc(100% / 12 * 5);
+    flex: 0 0 calc(100% / 12 * 5);
+    max-width: calc(100% / 12 * 5);
+  }
+  .wdk-wrap .wdk-row .wdk-col-md-6 {
+    -webkit-flex: 0 0 calc(100% / 12 * 6);
+    flex: 0 0 calc(100% / 12 * 6);
+    max-width: calc(100% / 12 * 6);
+  }
+  .wdk-wrap .wdk-row .wdk-col-md-7 {
+    -webkit-flex: 0 0 calc(100% / 12 * 7);
+    flex: 0 0 calc(100% / 12 * 7);
+    max-width: calc(100% / 12 * 7);
+  }
+  .wdk-wrap .wdk-row .wdk-col-md-8 {
+    -webkit-flex: 0 0 calc(100% / 12 * 8);
+    flex: 0 0 calc(100% / 12 * 8);
+    max-width: calc(100% / 12 * 8);
+  }
+  .wdk-wrap .wdk-row .wdk-col-md-9 {
+    -webkit-flex: 0 0 calc(100% / 12 * 9);
+    flex: 0 0 calc(100% / 12 * 9);
+    max-width: calc(100% / 12 * 9);
+  }
+  .wdk-wrap .wdk-row .wdk-col-md-10 {
+    -webkit-flex: 0 0 calc(100% / 12 * 10);
+    flex: 0 0 calc(100% / 12 * 10);
+    max-width: calc(100% / 12 * 10);
+  }
+  .wdk-wrap .wdk-row .wdk-col-md-11 {
+    -webkit-flex: 0 0 calc(100% / 12 * 11);
+    flex: 0 0 calc(100% / 12 * 11);
+    max-width: calc(100% / 12 * 11);
+  }
+  .wdk-wrap .wdk-row .wdk-col-md-12 {
+    -webkit-flex: 0 0 calc(100% / 12 * 12);
+    flex: 0 0 calc(100% / 12 * 12);
+    max-width: calc(100% / 12 * 12);
+  }
+}
