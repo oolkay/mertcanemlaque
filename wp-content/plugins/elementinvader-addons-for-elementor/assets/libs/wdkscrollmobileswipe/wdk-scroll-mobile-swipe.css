@@ -1,7 +1,0 @@
-@media (max-width: 767px) {
-  .WdkScrollMobileSwipe {
-    display: flex;
-    flex-wrap: nowrap !important;
-    overflow: auto !important;
-  }
-}
